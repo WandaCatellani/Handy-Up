@@ -1,6 +1,6 @@
 import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
 
-import Home from './src/screens/Home/Home';
+import Home from './src/screens/Home/index';
 // import Colors from './src/constants/colors';
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
