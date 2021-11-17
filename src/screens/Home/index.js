@@ -1,161 +1,111 @@
 import {
   Button,
-  FlatList,
-  Modal,
+  Keyboard,
   StyleSheet,
   Text,
-  TextInput,
+  TouchableWithoutFeedback,
   View,
 } from 'react-native';
 import React, { useState } from 'react';
 
-import Colors from '../../constants/colors';
-import { StatusBar } from 'expo-status-bar';
+import Card from '../../components/Cards/Cards';
+import Input from '../../components/Input';
+import colors from '../../constants/colors';
 
-export default function Home() {
-  const [text, setText] = useState('');
-  const [itemList, setItemList] = useState([]);
-  const [itemSelected, setItemSelected] = useState({});
-  const [modalVisible, setModalVisible] = useState(false);
+const Home = ({ onStartGame }) => {
+  const [enteredValue, setEnteredValue] = useState('');
+  const [confirmedNumber, setConfirmedNumber] = useState();
 
-  const handleChangeText = (value) => {
-    setText(value);
+  const handleInputValue = (text) => {
+    setEnteredValue(text.replace(/[^0-9]/g, ''));
   };
 
-  const handleAddItem = () => {
-    const item = {
-      value: text,
-      id: Math.random().toString(),
-    };
-    setItemList([...itemList, item]);
-    setText('');
+  const handleResetInput = () => setEnteredValue('');
+
+  const handleConfirmInput = () => {
+    const choseNumber = parseInt(enteredValue);
+    if (choseNumber === NaN || choseNumber <= 0 || choseNumber > 99) return;
+
+    setConfirmedNumber(enteredValue);
+    setEnteredValue('');
   };
 
-  const handleRemoveItem = (id) => {
-    setModalVisible(true);
-    setItemSelected(itemList.find((item) => item.id === id));
-  };
+  const handleStartGame = () => onStartGame(confirmedNumber);
 
-  const handleRemoveConfirm = () => {
-    const newList = itemList.filter((item) => item.id !== itemSelected.id);
-    setItemList(newList);
-    setModalVisible(false);
-    setItemSelected({});
-  };
+  const confirmedOutput = confirmedNumber ? (
+    <Card>
+      <Text>Número seleccionado: {confirmedNumber}</Text>
+      <Button
+        onPress={handleStartGame}
+        title='EMPEZAR JUEGO'
+        color={colors.primary}
+      />
+    </Card>
+  ) : null;
 
   return (
-    <View style={styles.screen}>
-      <View style={styles.inputContainer}>
-        <TextInput
-          placeholder='Item de la lista'
-          style={styles.textInput}
-          onChangeText={handleChangeText}
-          value={text}
-        />
-
-        <Button title='ADD' onPress={handleAddItem} />
-      </View>
-
-      <View style={styles.items}>
-        <FlatList
-          data={itemList}
-          keyExtractor={(item) => item.id}
-          renderItem={({ item }) => (
-            <View style={styles.item} key={item.id}>
-              <Text>{item.value}</Text>
-
-              <Button title='X' onPress={() => handleRemoveItem(item.id)} />
-            </View>
-          )}
-        />
-      </View>
-
-      <Modal
-        style={styles.modalContainer}
-        visible={modalVisible}
-        animationType='fade'
-        transparent={true}
-      >
-        <View style={styles.contentModal}>
-          <View>
-            <Text style={styles.textModal}>¿Está seguro que desea borrar?</Text>
+    <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
+      <View style={styles.screen}>
+        <Text style={styles.title}>Comenzar Juego</Text>
+        <Card style={styles.inputContainer}>
+          <Text>Elija un número</Text>
+          <Input
+            style={{
+              borderBottomColor: colors.black,
+              borderBottomWidth: 1,
+              width: 200,
+              marginBottom: 20,
+            }}
+            maxLength={30}
+            keyboardType='numeric'
+            autoCapitalization='none'
+            autoCorrect={false}
+            value={enteredValue}
+            onChangeText={handleInputValue}
+          />
+          <View style={styles.buttonContainer}>
+            <Button
+              title='Limpiar'
+              color={colors.backgroundPrimary}
+              onPress={handleResetInput}
+            />
+            <Button
+              title='Confirmar'
+              color={colors.primary}
+              onPress={handleConfirmInput}
+            />
           </View>
+        </Card>
 
-          <View>
-            <Text style={styles.valueStyle}>{itemSelected.value}</Text>
-          </View>
-        </View>
-
-        <View>
-          <Button title='CONFIRMAR' onPress={handleRemoveConfirm} />
-        </View>
-      </Modal>
-
-      <StatusBar style='auto' />
-    </View>
+        {confirmedOutput}
+      </View>
+    </TouchableWithoutFeedback>
   );
-}
+};
 
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    backgroundColor: Colors.primary,
+    padding: 10,
     alignItems: 'center',
-    padding: 40,
+  },
+  title: {
+    fontSize: 20,
+    marginVertical: 10,
   },
   inputContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    width: '100%',
-    marginVertical: 40,
-    // backgroundColor: '#05E895',
-  },
-  textInput: {
-    borderBottomColor: Colors.black,
-    borderBottomWidth: 1,
-    width: 200,
-  },
-  items: {
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    width: '100%',
-    // backgroundColor: '#ececec',
-  },
-  item: {
-    padding: 10,
+    width: 300,
+    maxWidth: '80%',
+    padding: 20,
     marginVertical: 10,
+    alignItems: 'center',
+  },
+  buttonContainer: {
     flexDirection: 'row',
-    alignItems: 'center',
+    width: '100%',
     justifyContent: 'space-between',
-    borderColor: Colors.black,
-    borderWidth: 1,
-    width: 250,
+    paddingHorizontal: 15,
   },
-  // modalContainer: {
-  //   backgroundColor: Colors.backgroundPrimary,
-  //   flex: 1,
-  //    },
-  contentModal: {
-    // flex: 1,
-    alignItems: 'center',
-    justifyContent: 'space-evenly',
-    backgroundColor: Colors.primary,
-    padding: 40,
-  },
-  textModal: {
-    color: Colors.black,
-    fontSize: 22,
-    paddingVertical: 10,
-  },
-  valueStyle: {
-    color: Colors.white,
-    fontWeight: 'bold',
-    fontSize: 28,
-  },
-  // btnModal: {
-  //   color: Colors.primary,
-  //   fontWeight: 'bold',
-  //   fontSize: 28,
-  // },
 });
+
+export default Home;
