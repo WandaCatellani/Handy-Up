@@ -35,6 +35,7 @@ const Home = ({ onStartGame }) => {
   const confirmedOutput = confirmedNumber ? (
     <Card>
       <Text>Número seleccionado: {confirmedNumber}</Text>
+
       <Button
         onPress={handleStartGame}
         title='EMPEZAR JUEGO'
@@ -47,8 +48,10 @@ const Home = ({ onStartGame }) => {
     <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
       <View style={styles.screen}>
         <Text style={styles.title}>Comenzar Juego</Text>
+
         <Card style={styles.inputContainer}>
           <Text>Elija un número</Text>
+
           <Input
             style={{
               borderBottomColor: colors.black,
@@ -63,12 +66,14 @@ const Home = ({ onStartGame }) => {
             value={enteredValue}
             onChangeText={handleInputValue}
           />
+
           <View style={styles.buttonContainer}>
             <Button
               title='Limpiar'
               color={colors.backgroundPrimary}
               onPress={handleResetInput}
             />
+
             <Button
               title='Confirmar'
               color={colors.primary}

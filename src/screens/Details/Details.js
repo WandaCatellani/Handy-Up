@@ -2,10 +2,10 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import React from 'react';
 
-export default function Services() {
+export default function Details() {
   return (
     <View style={styles.screen}>
-      <Text>Services</Text>
+      <Text>Details</Text>
     </View>
   );
 }
