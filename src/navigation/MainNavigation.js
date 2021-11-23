@@ -7,16 +7,18 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator();
 
-const MainNavegation = () => {
-  <NavigationContainer>
-    <Stack.Navigator initialRouteName='Home'>
-      <Stack.Screen name='Home' component={Categories} />
+const MainNavigation = () => {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName='Home'>
+        <Stack.Screen name='Home' component={Categories} />
 
-      <Stack.Screen name='Services' component={Services} />
+        <Stack.Screen name='Services' component={Services} />
 
-      <Stack.Screen name='Details' component={Details} />
-    </Stack.Navigator>
-  </NavigationContainer>;
+        <Stack.Screen name='Details' component={Details} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
 };
 
-export default MainNavegation;
+export default MainNavigation;

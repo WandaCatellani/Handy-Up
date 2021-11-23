@@ -1,11 +1,17 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native';
+import React, { useEffect } from 'react';
 
-import React from 'react';
-
-export default function Services() {
+export default function Services({ navigation }) {
+  useEffect(() => {
+    console.log('Services');
+  }, []);
   return (
     <View style={styles.screen}>
       <Text>Services</Text>
+      <Button
+        title='Ir a Details'
+        onPress={() => navigation.navigate('Details')}
+      />
     </View>
   );
 }

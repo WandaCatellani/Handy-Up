@@ -1,8 +1,11 @@
 import { Button, StyleSheet, Text, View } from 'react-native';
+import React, { useEffect } from 'react';
 
-import React from 'react';
+export default function Categories({ navigation }) {
+  useEffect(() => {
+    console.log('categories');
+  }, []);
 
-export default function Categories({ navigation, route }) {
   return (
     <View style={styles.screen}>
       <Text>Categories</Text>
