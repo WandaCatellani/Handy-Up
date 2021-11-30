@@ -2,16 +2,16 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import React from 'react';
 
-export default function Details() {
+export default function Search() {
   return (
-    <View style={styles.screen}>
-      <Text>Details</Text>
+    <View style={style.container}>
+      <Text> Search</Text>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  screen: {
+const style = StyleSheet.create({
+  container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',

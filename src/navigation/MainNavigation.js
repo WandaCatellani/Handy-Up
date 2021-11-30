@@ -1,24 +1,76 @@
-import Categories from '../screens/Categories/Categories';
-import Details from '../screens/Details/Details';
-import { NavigationContainer } from '@react-navigation/native';
-import React from 'react';
-import Services from '../screens/Services/Services';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { FontAwesome, MaterialCommunityIcons } from 'react-native-vector-icons';
 
-const Stack = createNativeStackNavigator();
+import CategoriesNavigator from './Categories/CategoriesNavigator';
+import Colors from '../constants/colors';
+import { NavigationContainer } from '@react-navigation/native';
+import OrdersNavigator from './Orders/OrdersNavigator';
+import ProfileNavigator from './Profile/ProfileNavigator';
+import React from 'react';
+import SearchNavigator from './Search/SearchNavigator';
+import { StyleSheet } from 'react-native';
+import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
+
+// import Details from '../screens/Details/Details';
+// import Services from '../screens/Services/Services';
+
+const Tab = createMaterialBottomTabNavigator();
 
 const MainNavigation = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='Home'>
-        <Stack.Screen name='Home' component={Categories} />
+      <Tab.Navigator activeColor={Colors.black} barStyle={style.navigator}>
+        <Tab.Screen
+          name='Home'
+          component={CategoriesNavigator}
+          options={{
+            tabBarIcon: ({ color }) => (
+              <FontAwesome name='home' color={color} size={24} />
+            ),
+          }}
+        />
 
-        <Stack.Screen name='Services' component={Services} />
+        <Tab.Screen
+          name='Search'
+          component={SearchNavigator}
+          options={{
+            tabBarIcon: ({ color }) => (
+              <FontAwesome name='search' color={color} size={24} />
+            ),
+          }}
+        />
 
-        <Stack.Screen name='Details' component={Details} />
-      </Stack.Navigator>
+        <Tab.Screen
+          name='Orders'
+          component={OrdersNavigator}
+          options={{
+            tabBarIcon: ({ color }) => (
+              <MaterialCommunityIcons
+                name='cart-outline'
+                color={color}
+                size={24}
+              />
+            ),
+          }}
+        />
+
+        <Tab.Screen
+          name='Profile'
+          component={ProfileNavigator}
+          options={{
+            tabBarIcon: ({ color }) => (
+              <FontAwesome name='user' color={color} size={24} />
+            ),
+          }}
+        />
+      </Tab.Navigator>
     </NavigationContainer>
   );
 };
 
 export default MainNavigation;
+
+const style = StyleSheet.create({
+  navigator: {
+    backgroundColor: '#a8dadc',
+  },
+});

@@ -1,10 +1,8 @@
-import { Image, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 import Login from '../../components/Auth/Login';
 import React from 'react';
 import Register from '../../components/Auth/Register';
-
-// const { logo } = require('../../../assets/splash.png');
 
 const Auth = () => {
   const [showLogin, setShowLogin] = useState(false);

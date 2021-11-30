@@ -1,17 +1,18 @@
-import { Button, StyleSheet, Text, View } from 'react-native';
-import React, { useEffect } from 'react';
+import { StyleSheet, Text, View } from 'react-native';
 
-export default function Services({ navigation }) {
-  useEffect(() => {
-    console.log('Services');
-  }, []);
+import React from 'react';
+import { SERVICES } from '../../data/services';
+
+export default function Services({ route }) {
+  const filteredCategoryServices = SERVICES.filter(
+    (service) => service.category === route.params.itemID
+  );
+
+  console.log(filteredCategoryServices);
+
   return (
     <View style={styles.screen}>
-      <Text>Services</Text>
-      <Button
-        title='Ir a Details'
-        onPress={() => navigation.navigate('Details')}
-      />
+      <Text>{route.params.name}</Text>
     </View>
   );
 }

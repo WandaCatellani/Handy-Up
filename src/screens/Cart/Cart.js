@@ -1,11 +1,14 @@
+import React, { useEffect } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import React from 'react';
+export default function Cart() {
+  useEffect(() => {
+    console.log('Cart');
+  }, []);
 
-export default function Details() {
   return (
     <View style={styles.screen}>
-      <Text>Details</Text>
+      <Text>Cart</Text>
     </View>
   );
 }

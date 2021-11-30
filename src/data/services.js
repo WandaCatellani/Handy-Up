@@ -1,0 +1,42 @@
+export const SERVICES = [
+  {
+    id: '1',
+    category: '1',
+    name: 'Roberto',
+    description: 'Lorem',
+    weight: '350gr',
+    price: 1600,
+  },
+  {
+    id: '2',
+    category: '1',
+    name: 'Enrique',
+    description: 'Lorem',
+    weight: '800gr',
+    price: 3000,
+  },
+  {
+    id: '3',
+    category: '1',
+    name: 'Sofia',
+    description: 'Lorem',
+    weight: '120gr',
+    price: 500,
+  },
+  {
+    id: '4',
+    category: '2',
+    name: 'Tobias',
+    description: 'Lorem',
+    weight: '900gr',
+    price: 3300,
+  },
+  {
+    id: '5',
+    category: '2',
+    name: 'Adriana',
+    description: 'Lorem',
+    weight: '600gr',
+    price: 3500,
+  },
+];

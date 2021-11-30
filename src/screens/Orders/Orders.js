@@ -1,11 +1,14 @@
+import React, { useEffect } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import React from 'react';
+export default function Orders() {
+  useEffect(() => {
+    console.log('Orders');
+  }, []);
 
-export default function Details() {
   return (
     <View style={styles.screen}>
-      <Text>Details</Text>
+      <Text>Orders</Text>
     </View>
   );
 }
