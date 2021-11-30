@@ -1,7 +1,7 @@
 import { SERVICES } from '../../src/data/services';
 
 const initialState = {
-  categories: SERVICES,
+  services: SERVICES,
   selected: null,
   filteredServices: [],
 };

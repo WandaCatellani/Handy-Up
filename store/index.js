@@ -1,11 +1,11 @@
-// import { combineReducer, createStore } from 'redux';
+import { combineReducers, createStore } from 'redux';
 
-// import CategoryReducer from './reducers/category.reducer';
-// import ServiceReducer from './reducers/services.reducer';
+import CategoryReducer from './reducers/category.reducer';
+import ServiceReducer from './reducers/services.reducer';
 
-// const RootReducer = combineReducer({
-//   categories: CategoryReducer,
-//   services: ServiceReducer,
-// });
+const RootReducer = combineReducers({
+  categories: CategoryReducer,
+  services: ServiceReducer,
+});
 
-// export default createStore(RootReducer);
+export default createStore(RootReducer);

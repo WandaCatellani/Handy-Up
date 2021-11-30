@@ -1,14 +1,25 @@
 import { StyleSheet, Text, View } from 'react-native';
 
 import React from 'react';
-import { SERVICES } from '../../data/services';
+import { useSelector } from 'react-redux';
+
+// import { SERVICES } from '../../data/services';
 
 export default function Services({ route }) {
-  const filteredCategoryServices = SERVICES.filter(
-    (service) => service.category === route.params.itemID
+  const filteredCategoryServices = useSelector(
+    (state) => state.services.filteredServices
   );
+  const category = useSelector((state) => state.categories.selected);
 
-  console.log(filteredCategoryServices);
+  useEffect(() => {
+    // dispatch para actualizar los filteredBreads
+  }, [category]);
+
+  // const filteredCategoryServices = SERVICES.filter(
+  //   (service) => service.category === route.params.itemID
+  // );
+
+  // console.log(filteredCategoryServices);
 
   return (
     <View style={styles.screen}>

@@ -1,9 +1,9 @@
 import AppLoading from 'expo-app-loading';
 import MainNavigation from './src/navigation/MainNavigation';
-// import { StatusBar } from 'expo-status-bar';
 import { Provider as PaperProvider } from 'react-native-paper';
-import { Provider } from 'react';
+import { Provider } from 'react-redux';
 import React from 'react';
+import { StatusBar } from 'expo-status-bar';
 import store from './store';
 import { useFonts } from 'expo-font';
 const FONT_DEFAULT = 'Roboto';
@@ -17,12 +17,13 @@ export default function App() {
   if (!loaded) return <AppLoading />;
 
   return (
-    <PaperProvider>
-      <MainNavigation />
-    </PaperProvider>
-
-    // <Provider store={store}>
+    // <PaperProvider>
     //   <MainNavigation />
-    // </Provider>
+    // </PaperProvider>
+
+    <Provider store={store}>
+      <MainNavigation />
+      <StatusBar style='auto' />
+    </Provider>
   );
 }
