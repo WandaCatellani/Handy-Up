@@ -1,13 +1,13 @@
-// import { SERVICES } from '../../src/data/services';
+import { SERVICES } from '../../src/data/services';
 
-// const initialState = {
-//   categories: SERVICES,
-//   selected: null,
-//   filteredServices: [],
-// };
+const initialState = {
+  categories: SERVICES,
+  selected: null,
+  filteredServices: [],
+};
 
-// const ServiceReducer = (state = initialState, action) => {
-//   return state;
-// };
+const ServiceReducer = (state = initialState, action) => {
+  return state;
+};
 
-// export default ServiceReducer;
+export default ServiceReducer;

@@ -1,11 +1,8 @@
-import React, { useEffect } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function Orders() {
-  useEffect(() => {
-    console.log('Orders');
-  }, []);
+import React from 'react';
 
+export default function Orders() {
   return (
     <View style={styles.screen}>
       <Text>Orders</Text>

@@ -8,9 +8,9 @@ export default function CartNavigator() {
   return (
     <Stack.Navigator>
       <Stack.Screen
-        name='Orders'
+        name='orders'
         component={Orders}
-        options={{ title: 'CART' }}
+        options={{ title: 'ORDERS' }}
       />
     </Stack.Navigator>
   );

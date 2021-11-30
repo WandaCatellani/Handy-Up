@@ -1,10 +1,10 @@
 import { FontAwesome, MaterialCommunityIcons } from 'react-native-vector-icons';
 
+import AuthNavigator from './Auth/AuthNavigator';
 import CategoriesNavigator from './Categories/CategoriesNavigator';
 import Colors from '../constants/colors';
 import { NavigationContainer } from '@react-navigation/native';
 import OrdersNavigator from './Orders/OrdersNavigator';
-import ProfileNavigator from './Profile/ProfileNavigator';
 import React from 'react';
 import SearchNavigator from './Search/SearchNavigator';
 import { StyleSheet } from 'react-native';
@@ -54,8 +54,8 @@ const MainNavigation = () => {
         />
 
         <Tab.Screen
-          name='Profile'
-          component={ProfileNavigator}
+          name='Auth'
+          component={AuthNavigator}
           options={{
             tabBarIcon: ({ color }) => (
               <FontAwesome name='user' color={color} size={24} />

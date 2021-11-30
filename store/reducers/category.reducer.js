@@ -1,22 +1,22 @@
-// import { CATEGORIES } from '../../src/data/categories';
-// import { SELECT_CATEGORY } from '../actions/category.action';
+import { CATEGORIES } from '../../src/data/categories';
+import { SELECT_CATEGORY } from '../actions/category.action';
 
-// const initialState = {
-//   categories: CATEGORIES,
-//   selected: null,
-// };
+const initialState = {
+  categories: CATEGORIES,
+  selected: null,
+};
 
-// const CategoryReducer = (state = initialState, action) => {
-//   switch (action.type) {
-//     case SELECT_CATEGORY:
-//       return {
-//         ...state,
-//         selected: action.categoryID,
-//       };
+const CategoryReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case SELECT_CATEGORY:
+      return {
+        ...state,
+        selected: action.categoryID,
+      };
 
-//     default:
-//       return state;
-//   }
-// };
+    default:
+      return state;
+  }
+};
 
-// export default CategoryReducer;
+export default CategoryReducer;
