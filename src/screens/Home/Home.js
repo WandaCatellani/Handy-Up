@@ -5,14 +5,21 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import React from 'react';
 import { selectCategory } from '../../../store/actions/category.action';
-
-// import { CATEGORIES } from '../../data/categories';
+import { useIsFocused } from '@react-navigation/native';
 
 export default function Home({ navigation }) {
+  const isFocused = useIsFocused();
+
+  useEffect(() => {
+    if (isFocused) {
+      console.log('buscando productos destacados');
+    }
+  }, [isFocused]);
+
   const dispatch = useDispatch();
   const categories = useSelector((state) => state.categories.categories);
 

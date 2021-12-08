@@ -1,11 +1,12 @@
 import AppLoading from 'expo-app-loading';
 import MainNavigation from './src/navigation/MainNavigation';
-import { Provider as PaperProvider } from 'react-native-paper';
+// import { Provider as PaperProvider } from 'react-native-paper';
 import { Provider } from 'react-redux';
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import store from './store';
 import { useFonts } from 'expo-font';
+
 const FONT_DEFAULT = 'Roboto';
 
 export default function App() {

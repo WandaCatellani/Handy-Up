@@ -12,15 +12,15 @@ export default function CategoriesNavigator() {
       <Stack.Screen name='home' component={Home} options={{ title: 'HOME' }} />
 
       <Stack.Screen
-        name='details'
-        component={Details}
-        options={{ title: 'Details' }}
-      />
-
-      <Stack.Screen
         name='services'
         component={Services}
         options={{ title: 'Services' }}
+      />
+
+      <Stack.Screen
+        name='details'
+        component={Details}
+        options={{ title: 'Details' }}
       />
     </Stack.Navigator>
   );

@@ -8,7 +8,7 @@ export default function AuthNavigator() {
   return (
     <Stack.Navigator>
       <Stack.Screen
-        name='Auth'
+        name='auth'
         component={Auth}
         options={{ title: 'MY ACCOUNT' }}
       />
