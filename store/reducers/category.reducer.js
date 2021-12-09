@@ -1,5 +1,5 @@
 import { CATEGORIES } from '../../src/data/categories';
-import { SELECT_CATEGORY } from '../actions/category.action';
+import { SELECT_CATEGORY } from '../actions/category.actions';
 
 const initialState = {
   categories: CATEGORIES,

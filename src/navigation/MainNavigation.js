@@ -10,9 +10,6 @@ import SearchNavigator from './Search/SearchNavigator';
 import { StyleSheet } from 'react-native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 
-// import Details from '../screens/Details/Details';
-// import Services from '../screens/Services/Services';
-
 const Tab = createMaterialBottomTabNavigator();
 
 const MainNavigation = () => {

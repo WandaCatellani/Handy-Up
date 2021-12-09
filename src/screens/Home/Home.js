@@ -8,7 +8,7 @@ import {
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { selectCategory } from '../../../store/actions/category.action';
+import { selectCategory } from '../../../store/actions/category.actions';
 import { useIsFocused } from '@react-navigation/native';
 
 export default function Home({ navigation }) {
