@@ -35,11 +35,11 @@ export default function Home({ navigation }) {
     <View style={styles.screen}>
       <FlatList
         data={categories}
-        renderItem={({ item }) => {
+        renderItem={({ item }) => (
           <TouchableOpacity OnPress={() => handleSelectCategory(item)}>
             <Text>{item.title}</Text>
-          </TouchableOpacity>;
-        }}
+          </TouchableOpacity>
+        )}
         keyExtractor={(item) => item.id}
       />
     </View>

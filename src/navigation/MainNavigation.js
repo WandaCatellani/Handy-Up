@@ -1,10 +1,10 @@
 import { FontAwesome, MaterialCommunityIcons } from 'react-native-vector-icons';
 
 import AuthNavigator from './Auth/AuthNavigator';
+import CartNavigator from './CartNavigator/CartNavigator';
 import CategoriesNavigator from './Categories/CategoriesNavigator';
 import Colors from '../constants/colors';
 import { NavigationContainer } from '@react-navigation/native';
-import OrdersNavigator from './Orders/OrdersNavigator';
 import React from 'react';
 import SearchNavigator from './Search/SearchNavigator';
 import { StyleSheet } from 'react-native';
@@ -37,8 +37,8 @@ const MainNavigation = () => {
         />
 
         <Tab.Screen
-          name='Orders'
-          component={OrdersNavigator}
+          name='Cart'
+          component={CartNavigator}
           options={{
             tabBarIcon: ({ color }) => (
               <MaterialCommunityIcons
