@@ -9,6 +9,10 @@ import { useFonts } from 'expo-font';
 
 const FONT_DEFAULT = 'Roboto';
 
+if (__DEV__) {
+  import('./ReactotronConfig').then(() => console.log('Reactotron Configured'));
+}
+
 export default function App() {
   const [loaded] = useFonts({
     [FONT_DEFAULT]: require('./assets/fonts/Roboto-Regular.ttf'),
