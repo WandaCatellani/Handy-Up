@@ -1,5 +1,5 @@
 import AppLoading from 'expo-app-loading';
-import MainNavigation from './src/navigation/MainNavigation';
+import MainNavigator from './src/navigation/index';
 // import { Provider as PaperProvider } from 'react-native-paper';
 import { Provider } from 'react-redux';
 import React from 'react';
@@ -27,7 +27,7 @@ export default function App() {
     // </PaperProvider>
 
     <Provider store={store}>
-      <MainNavigation />
+      <MainNavigator />
       <StatusBar style='auto' />
     </Provider>
   );

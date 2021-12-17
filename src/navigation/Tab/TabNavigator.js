@@ -1,18 +1,18 @@
 import { FontAwesome, MaterialCommunityIcons } from 'react-native-vector-icons';
 
-import AuthNavigator from './Auth/AuthNavigator';
-import CartNavigator from './CartNavigator/CartNavigator';
-import CategoriesNavigator from './Categories/CategoriesNavigator';
-import Colors from '../constants/colors';
+import AuthNavigator from '../Auth/AuthNavigator';
+import CartNavigator from '../CartNavigator/CartNavigator';
+import CategoriesNavigator from '../Categories/CategoriesNavigator';
+import Colors from '../../constants/colors';
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
-import SearchNavigator from './Search/SearchNavigator';
+import SearchNavigator from '../Search/SearchNavigator';
 import { StyleSheet } from 'react-native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 
 const Tab = createMaterialBottomTabNavigator();
 
-const MainNavigation = () => {
+const TabNavigator = () => {
   return (
     <NavigationContainer>
       <Tab.Navigator activeColor={Colors.black} barStyle={style.navigator}>
@@ -64,7 +64,7 @@ const MainNavigation = () => {
   );
 };
 
-export default MainNavigation;
+export default TabNavigator;
 
 const style = StyleSheet.create({
   navigator: {
