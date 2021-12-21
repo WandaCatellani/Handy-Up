@@ -4,7 +4,6 @@ export const SIGN_UP = 'SIGN_UP';
 
 export const signUp = (email, password) => {
   return async (dispatch) => {
-    // try {
     const response = await fetch(SIGN_UP_URL, {
       method: 'POST',
       header: {
@@ -26,8 +25,5 @@ export const signUp = (email, password) => {
       token: data.idToken,
       userId: data.localId,
     });
-    // } catch(error) {
-    //   console.log(error.message);
-    // }
   };
 };
