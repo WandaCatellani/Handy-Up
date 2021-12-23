@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/native';
 
 import MapPreview from './MapPreview';
-import colors from '../constants/colors';
+import colors from '../../constants/colors';
 
 const ImageSelector = (props) => {
   const navigation = useNavigation();
@@ -57,11 +57,13 @@ const ImageSelector = (props) => {
       <MapPreview style={styles.preview} location={pickedLocation}>
         <Text>No hay ubicación...</Text>
       </MapPreview>
+
       <Button
         title='Obtener Ubicación'
         color={colors.PEACH_PUFF}
         onPress={handlePickLocation}
       />
+
       <Button
         title='Seleccionar Ubicación'
         color={colors.PEACH_PUFF}
