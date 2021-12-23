@@ -4,10 +4,18 @@ import MainNavigator from './src/navigation/index';
 import { Provider } from 'react-redux';
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
+import { init } from './src/db';
 import store from './store';
 import { useFonts } from 'expo-font';
 
 const FONT_DEFAULT = 'Roboto';
+
+init()
+  .then(() => console.log('Database initialized'))
+  .catch((err) => {
+    console.log('Database failed to connect');
+    console.error(err.message);
+  });
 
 if (__DEV__) {
   import('./ReactotronConfig').then(() => console.log('Reactotron Configured'));
