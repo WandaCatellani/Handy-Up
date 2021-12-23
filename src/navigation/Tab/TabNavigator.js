@@ -1,9 +1,9 @@
 import { FontAwesome, MaterialCommunityIcons } from 'react-native-vector-icons';
 
-import AuthNavigator from '../Auth/AuthNavigator';
 import CartNavigator from '../CartNavigator/CartNavigator';
 import CategoriesNavigator from '../Categories/CategoriesNavigator';
 import LocationNavigator from '../LocationNavigator/LocationNavigator';
+import ProfileNavigator from '../Profile/ProfileNavigator';
 import React from 'react';
 import SearchNavigator from '../Search/SearchNavigator';
 import { StyleSheet } from 'react-native';
@@ -60,8 +60,8 @@ const TabNavigator = () => {
       />
 
       <Tab.Screen
-        name='Auth'
-        component={AuthNavigator}
+        name='Profile'
+        component={ProfileNavigator}
         options={{
           tabBarIcon: ({ color }) => (
             <FontAwesome name='user' color={color} size={24} />
