@@ -3,23 +3,34 @@ import { FontAwesome, MaterialCommunityIcons } from 'react-native-vector-icons';
 import AuthNavigator from '../Auth/AuthNavigator';
 import CartNavigator from '../CartNavigator/CartNavigator';
 import CategoriesNavigator from '../Categories/CategoriesNavigator';
-import Colors from '../../constants/colors';
+import LocationNavigator from '../LocationNavigator/LocationNavigator';
 import React from 'react';
 import SearchNavigator from '../Search/SearchNavigator';
 import { StyleSheet } from 'react-native';
+import colors from '../../constants/colors';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 
 const Tab = createMaterialBottomTabNavigator();
 
 const TabNavigator = () => {
   return (
-    <Tab.Navigator activeColor={Colors.black} barStyle={style.navigator}>
+    <Tab.Navigator activeColor={colors.black} barStyle={style.navigator}>
       <Tab.Screen
         name='Home'
         component={CategoriesNavigator}
         options={{
           tabBarIcon: ({ color }) => (
             <FontAwesome name='home' color={color} size={24} />
+          ),
+        }}
+      />
+
+      <Tab.Screen
+        name='Places'
+        component={LocationNavigator}
+        options={{
+          tabBarIcon: ({ color }) => (
+            <FontAwesome name='map-marker' color={color} size={24} />
           ),
         }}
       />

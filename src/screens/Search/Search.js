@@ -5,7 +5,7 @@ import React from 'react';
 export default function Search() {
   return (
     <View style={style.container}>
-      <Text> Search</Text>
+      <Text>Buscando Servicios</Text>
     </View>
   );
 }
