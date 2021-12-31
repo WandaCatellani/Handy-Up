@@ -24,6 +24,8 @@ if (__DEV__) {
 export default function App() {
   const [loaded] = useFonts({
     [FONT_DEFAULT]: require('./assets/fonts/Roboto-Regular.ttf'),
+    'Roboto-Light': require('./assets/fonts/Roboto-Light.ttf'),
+    'Roboto-Medium': require('./assets/fonts/Roboto-Medium.ttf'),
     'Roboto-Bold': require('./assets/fonts/Roboto-Bold.ttf'),
   });
 

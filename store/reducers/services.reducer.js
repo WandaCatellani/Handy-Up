@@ -1,3 +1,5 @@
+import { FILTER_SERVICE, SELECT_SERVICE } from '../actions/services.actions';
+
 import { SERVICES } from '../../src/data/services';
 
 const initialState = {
@@ -7,7 +9,25 @@ const initialState = {
 };
 
 const ServiceReducer = (state = initialState, action) => {
-  return state;
+  switch (action.type) {
+    case SELECT_SERVICE:
+      return {
+        ...state,
+        selected: action.services.find(
+          (service) => service.id === action.serviceID
+        ),
+      };
+
+    case FILTER_SERVICE:
+      return {
+        ...state,
+        filteredServices: state.services.filter(
+          (service) => service.id === action.categoryID
+        ),
+      };
+    default:
+      return state;
+  }
 };
 
 export default ServiceReducer;

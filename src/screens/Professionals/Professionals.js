@@ -2,10 +2,10 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import React from 'react';
 
-export default function Details() {
+export default function Professionals() {
   return (
     <View style={styles.screen}>
-      <Text>Details</Text>
+      <Text>Professionals</Text>
     </View>
   );
 }

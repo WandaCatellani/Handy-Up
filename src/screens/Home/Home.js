@@ -1,13 +1,9 @@
-import {
-  FlatList,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import { FlatList, StyleSheet, View } from 'react-native';
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
+import CardContainer from '../../components/CardContainer/CardContainer';
+import CardService from '../../components/CardService/CardService';
 import { selectCategory } from '../../../store/actions/category.actions';
 import { useIsFocused } from '@react-navigation/native';
 
@@ -25,8 +21,8 @@ export default function Home({ navigation }) {
 
   const handleSelectCategory = (item) => {
     dispatch(selectCategory(item.id));
-    navigation.navigate('Services', {
-      name: item.title,
+    navigation.navigate('services', {
+      name: item.name,
       itemID: item.id,
     });
   };
@@ -35,10 +31,10 @@ export default function Home({ navigation }) {
     <View style={styles.screen}>
       <FlatList
         data={categories}
-        renderItem={({ item }) => (
-          <TouchableOpacity OnPress={() => handleSelectCategory(item)}>
-            <Text>{item.title}</Text>
-          </TouchableOpacity>
+        renderItem={(data) => (
+          <CardContainer>
+            <CardService item={data.item} onSelected={handleSelectCategory} />
+          </CardContainer>
         )}
         keyExtractor={(item) => item.id}
       />

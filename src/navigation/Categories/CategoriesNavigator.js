@@ -1,5 +1,5 @@
-import Details from '../../screens/Details/Details';
 import Home from '../../screens/Home/Home';
+import Professionals from '../../screens/Professionals/Professionals';
 import React from 'react';
 import Services from '../../screens/Services/Services';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -18,9 +18,9 @@ export default function CategoriesNavigator() {
       />
 
       <Stack.Screen
-        name='details'
-        component={Details}
-        options={{ title: 'Details' }}
+        name='professionals'
+        component={Professionals}
+        options={{ title: 'Professionals' }}
       />
     </Stack.Navigator>
   );
