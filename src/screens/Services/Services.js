@@ -38,128 +38,124 @@ export default function Services({ navigation }) {
   return (
     <View style={styles.screen}>
       <ScrollView>
-        <View style={styles.card}>
-          <CardContainer>
-            <View style={styles.containerSuperiorCard}>
-              <View>
-                <Image source={{ uri: item.image }} style={styles.image} />
+        <CardContainer>
+          <View style={styles.containerSuperiorCard}>
+            <View>
+              <Image source={{ uri: item.image }} style={styles.image} />
+            </View>
+
+            <View>
+              <View style={styles.textContainer}>
+                <Text style={styles.textName}>{item.name}</Text>
               </View>
 
               <View>
-                <View style={styles.textContainer}>
-                  <Text style={styles.textName}>{item.name}</Text>
-                </View>
-
-                <View>
-                  <Text style={styles.textSubtitulo}>
-                    Selecciona el servicio de {item.name} que necesitas
-                  </Text>
-                </View>
+                <Text style={styles.textSubtitulo}>
+                  Selecciona el servicio de {item.name} que necesitas
+                </Text>
               </View>
-
-              <TouchableOpacity onPress={() => handleClose()}>
-                <View>
-                  <Image
-                    source={require('../../../assets/iconClose.png')}
-                    style={styles.iconoClose}
-                  />
-                </View>
-              </TouchableOpacity>
             </View>
 
-            <View style={styles.descripcionTienda}>
-              <Text style={styles.textDescripcionTienda}>
-                {item.longDescription}
-              </Text>
-            </View>
-          </CardContainer>
+            <TouchableOpacity onPress={() => handleClose()}>
+              <View>
+                <Image
+                  source={require('../../../assets/iconClose.png')}
+                  style={styles.iconoClose}
+                />
+              </View>
+            </TouchableOpacity>
+          </View>
 
-          {/* SERVICIOS DESTACADOS */}
-          <CardContainer>
-            <Text style={styles.textPromociones}>Productos destacados</Text>
+          <View style={styles.descripcionTienda}>
+            <Text style={styles.textDescripcionTienda}>{item.description}</Text>
+          </View>
+        </CardContainer>
 
-            <View style={styles.cardProductosDestacados}>
-              {services.map((service, index) => {
-                if (service.destacado === true) {
-                  return (
-                    <TouchableOpacity
-                      style={styles.imageProductosDestacadosContainer}
-                      onPress={() => handleSelected(service)}
-                      key={index}
-                    >
-                      <View>
-                        <Image
-                          source={{ uri: service.image }}
-                          style={styles.imageProductosDestacados}
-                        />
-                      </View>
-                    </TouchableOpacity>
-                  );
-                }
-              })}
-            </View>
+        {/* SERVICIOS DESTACADOS */}
+        <CardContainer>
+          <Text style={styles.textPromociones}>Productos destacados</Text>
+
+          <View style={styles.cardProductosDestacados}>
+            {services.map((service, index) => {
+              if (service.destacado === true) {
+                return (
+                  <TouchableOpacity
+                    style={styles.imageProductosDestacadosContainer}
+                    onPress={() => handleSelected(service)}
+                    key={index}
+                  >
+                    <View>
+                      <Image
+                        source={{ uri: service.image }}
+                        style={styles.imageProductosDestacados}
+                      />
+                    </View>
+                  </TouchableOpacity>
+                );
+              }
+            })}
+          </View>
+
+          <TouchableOpacity
+            onPress={() => {
+              navigation.navigate('home');
+            }}
+          >
+            <Text style={styles.textVerProductos}>Todos los servicios</Text>
+          </TouchableOpacity>
+        </CardContainer>
+
+        {/* REDES SOCIALES */}
+        <CardContainer>
+          <Text style={styles.textPromociones}>Redes Sociales</Text>
+
+          <View style={styles.redesSocialesContainer}>
+            <TouchableOpacity
+              onPress={() => {
+                Linking.openURL('https:/instagram.com');
+              }}
+            >
+              <View>
+                <Image
+                  source={{
+                    uri: 'https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-512.png',
+                  }}
+                  style={styles.iconosRedesSociales}
+                />
+              </View>
+            </TouchableOpacity>
 
             <TouchableOpacity
               onPress={() => {
-                navigation.navigate('home');
+                Linking.openURL('https:/facebook.com');
               }}
             >
-              <Text style={styles.textVerProductos}>Todos los servicios</Text>
+              <View>
+                <Image
+                  source={{
+                    uri: 'https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-512.png',
+                  }}
+                  style={styles.iconosRedesSociales}
+                />
+              </View>
             </TouchableOpacity>
-          </CardContainer>
 
-          {/* REDES SOCIALES */}
-          <CardContainer>
-            <Text style={styles.textPromociones}>Redes Sociales</Text>
-
-            <View style={styles.redesSocialesContainer}>
-              <TouchableOpacity
-                onPress={() => {
-                  Linking.openURL('https:/instagram.com');
-                }}
-              >
-                <View>
-                  <Image
-                    source={{
-                      uri: 'https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-512.png',
-                    }}
-                    style={styles.iconosRedesSociales}
-                  />
-                </View>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                onPress={() => {
-                  Linking.openURL('https:/facebook.com');
-                }}
-              >
-                <View>
-                  <Image
-                    source={{
-                      uri: 'https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-512.png',
-                    }}
-                    style={styles.iconosRedesSociales}
-                  />
-                </View>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                onPress={() => {
-                  Linking.openURL('https://api.whatsapp.com');
-                }}
-              >
-                <View>
-                  <Image
-                    source={{
-                      uri: 'https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Whatsapp_svg2-512.png',
-                    }}
-                    style={styles.iconosRedesSociales}
-                  />
-                </View>
-              </TouchableOpacity>
-            </View>
-          </CardContainer>
-        </View>
+            <TouchableOpacity
+              onPress={() => {
+                Linking.openURL('https://api.whatsapp.com');
+              }}
+            >
+              <View>
+                <Image
+                  source={{
+                    uri: 'https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Whatsapp_svg2-512.png',
+                  }}
+                  style={styles.iconosRedesSociales}
+                />
+              </View>
+            </TouchableOpacity>
+          </View>
+        </CardContainer>
       </ScrollView>
     </View>
   );
@@ -169,10 +165,7 @@ const styles = StyleSheet.create({
   screen: {
     flex: 1,
     width: '100%',
-    backgroundColor: colors.primary,
-  },
-  card: {
-    marginTop: 10,
+    backgroundColor: 'red',
   },
   containerSuperiorCard: {
     flexDirection: 'row',
@@ -193,7 +186,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
   textSubtitulo: {
-    fontSize: 14,
+    fontSize: 16,
   },
   textDescripcionTienda: {
     fontFamily: 'Roboto-Light',

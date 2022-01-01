@@ -106,6 +106,8 @@ export const CATEGORIES = [
   {
     id: '26',
     name: 'Tapicero',
+    description:
+      'No busques en internet cómo tapizar un sofá, solicitá ese trabajo a un tapicero profesional en Córdoba desde la aplicación de x y encontrá cientos de pofesionales para tapizado de muebles, sofás, sillas, etc. Es recomendable agregar imágenes a la solicitud de trabajo para que el tapicero pueda concretar mejor el presupuesto para el tapizado.',
   },
   {
     id: '27',
