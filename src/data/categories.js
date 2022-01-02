@@ -1,7 +1,7 @@
 export const CATEGORIES = [
   {
     id: '1',
-    name: 'A/A',
+    name: 'Aire Acondicionado',
     color: '#bf98a0',
   },
   {

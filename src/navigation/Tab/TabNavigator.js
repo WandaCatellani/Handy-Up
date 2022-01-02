@@ -3,7 +3,7 @@ import { FontAwesome, MaterialCommunityIcons } from 'react-native-vector-icons';
 import CartNavigator from '../CartNavigator/CartNavigator';
 import CategoriesNavigator from '../Categories/CategoriesNavigator';
 import LocationNavigator from '../LocationNavigator/LocationNavigator';
-import ProfileNavigator from '../Profile/ProfileNavigator';
+import ProfileNavigator from '../ProfileNavigator/ProfileNavigator';
 import React from 'react';
 import SearchNavigator from '../Search/SearchNavigator';
 import { StyleSheet } from 'react-native';
@@ -76,6 +76,6 @@ export default TabNavigator;
 
 const style = StyleSheet.create({
   navigator: {
-    backgroundColor: '#a8dadc',
+    backgroundColor: colors.primary,
   },
 });

@@ -1,15 +1,13 @@
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-import Colors from '../../constants/colors';
 import React from 'react';
-
-// import { Ionicons } from '@expo/vector-icons';
+import colors from '../../constants/colors';
 
 const CardService = ({ item, onSelected }) => {
   return (
     <TouchableOpacity onPress={() => onSelected(item)}>
       <View style={styles.card}>
-        <View>
+        <View style={styles.cardImage}>
           <Image
             source={{ uri: 'https://placekitten.com/900/700' }}
             style={styles.image}
@@ -28,22 +26,25 @@ const CardService = ({ item, onSelected }) => {
 
 const styles = StyleSheet.create({
   card: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
     alignItems: 'center',
+  },
+  cardImage: {
+    borderRadius: 15,
+    padding: 10,
+    backgroundColor: colors.white,
   },
   image: {
     width: 50,
     height: 50,
-    borderRadius: 100,
-    marginRight: 5,
+    borderRadius: 15,
   },
   textContainer: {
-    width: 180,
+    paddingTop: 5,
   },
   textName: {
     fontFamily: 'Roboto-Medium',
-    fontSize: 20,
+    fontSize: 12,
+    color: colors.white,
   },
 });
 
