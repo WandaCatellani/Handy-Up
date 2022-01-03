@@ -22,6 +22,9 @@ export default function Services({ navigation }) {
   const item = useSelector((state) => state.categories.selected);
   const services = useSelector((state) => state.services.filteredServices);
 
+  console.log(item.name);
+  console.log(services.name);
+
   useEffect(() => {
     dispatch(filterService(item.id));
   }, []);
@@ -44,13 +47,13 @@ export default function Services({ navigation }) {
               <Image source={{ uri: item.image }} style={styles.image} />
             </View>
 
-            <View>
-              <View style={styles.textContainer}>
+            <View style={styles.titleContainer}>
+              <View>
                 <Text style={styles.textName}>{item.name}</Text>
               </View>
 
               <View>
-                <Text style={styles.textSubtitulo}>
+                <Text style={styles.subTitle}>
                   Selecciona el servicio de {item.name} que necesitas
                 </Text>
               </View>
@@ -66,14 +69,14 @@ export default function Services({ navigation }) {
             </TouchableOpacity>
           </View>
 
-          <View style={styles.descripcionTienda}>
-            <Text style={styles.textDescripcionTienda}>{item.description}</Text>
+          <View style={styles.descripcion}>
+            <Text style={styles.textDescripcion}>{item.description}</Text>
           </View>
         </CardContainer>
 
         {/* SERVICIOS DESTACADOS */}
         <CardContainer>
-          <Text style={styles.textPromociones}>Productos destacados</Text>
+          <Text style={styles.textDestacado}>Productos destacados</Text>
 
           <View style={styles.cardProductosDestacados}>
             {services.map((service, index) => {
@@ -101,13 +104,13 @@ export default function Services({ navigation }) {
               navigation.navigate('home');
             }}
           >
-            <Text style={styles.textVerProductos}>Todos los servicios</Text>
+            <Text style={styles.textServices}>Todos los servicios</Text>
           </TouchableOpacity>
         </CardContainer>
 
         {/* REDES SOCIALES */}
         <CardContainer>
-          <Text style={styles.textPromociones}>Redes Sociales</Text>
+          <Text style={styles.textRedes}>Redes Sociales</Text>
 
           <View style={styles.redesSocialesContainer}>
             <TouchableOpacity
@@ -117,9 +120,10 @@ export default function Services({ navigation }) {
             >
               <View>
                 <Image
-                  source={{
-                    uri: 'https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-512.png',
-                  }}
+                  source={require('../../../assets/instagram.png')}
+                  // source={{
+                  //   uri: 'https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-512.png',
+                  // }}
                   style={styles.iconosRedesSociales}
                 />
               </View>
@@ -132,9 +136,10 @@ export default function Services({ navigation }) {
             >
               <View>
                 <Image
-                  source={{
-                    uri: 'https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-512.png',
-                  }}
+                  source={require('../../../assets/facebook.png')}
+                  // source={{
+                  //   uri: 'https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-512.png',
+                  // }}
                   style={styles.iconosRedesSociales}
                 />
               </View>
@@ -147,9 +152,10 @@ export default function Services({ navigation }) {
             >
               <View>
                 <Image
-                  source={{
-                    uri: 'https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Whatsapp_svg2-512.png',
-                  }}
+                  source={require('../../../assets/whatsApp.png')}
+                  // source={{
+                  //   uri: 'https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Whatsapp_svg2-512.png',
+                  // }}
                   style={styles.iconosRedesSociales}
                 />
               </View>
@@ -165,53 +171,76 @@ const styles = StyleSheet.create({
   screen: {
     flex: 1,
     width: '100%',
-    backgroundColor: 'red',
+    backgroundColor: 'white',
   },
   containerSuperiorCard: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    backgroundColor: 'red',
   },
   image: {
     width: 50,
     height: 50,
     borderRadius: 100,
   },
-  iconoClose: {
-    height: 20,
-    width: 20,
+  titleContainer: {
+    backgroundColor: 'green',
+    flex: 1,
+    alignItems: 'center',
   },
   textName: {
     fontFamily: 'Roboto-Medium',
     fontSize: 20,
+    width: 200,
+    paddingBottom: 10,
   },
-  textSubtitulo: {
+  subTitle: {
     fontSize: 16,
+  },
+  iconoClose: {
+    height: 20,
+    width: 20,
   },
   textDescripcionTienda: {
     fontFamily: 'Roboto-Light',
     fontSize: 14,
   },
-  textContainer: {
-    width: 200,
-  },
-  descripcionTienda: {
+
+  descripcion: {
     marginVertical: 20,
+    backgroundColor: colors.primary,
   },
-  containerInferiorCard: {
+  // containerInferiorCard: {
+  //   flexDirection: 'row',
+  //   justifyContent: 'space-around',
+  //   alignItems: 'center',
+  // },
+  // iconosInferioresCard: {
+  //   width: 20,
+  //   height: 20,
+  // },
+  // cardPromociones: {
+  //   flexDirection: 'row',
+  //   justifyContent: 'space-around',
+  // },
+  textDestacado: {
+    paddingBottom: 5,
+    marginBottom: 15,
+    borderBottomWidth: 0.2,
+    borderColor: 'grey',
+    color: 'black',
+    fontFamily: 'Roboto-Medium',
+    fontSize: 16,
+    backgroundColor: 'pink',
+  },
+  cardProductosDestacados: {
     flexDirection: 'row',
-    justifyContent: 'space-around',
-    alignItems: 'center',
+    flexWrap: 'wrap',
+    backgroundColor: 'blue',
   },
-  iconosInferioresCard: {
-    width: 20,
-    height: 20,
-  },
-  cardPromociones: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-  },
-  textPromociones: {
+  textServices: {
+    backgroundColor: 'yellow',
     paddingBottom: 5,
     marginBottom: 15,
     borderBottomWidth: 0.2,
@@ -220,61 +249,65 @@ const styles = StyleSheet.create({
     fontFamily: 'Roboto-Medium',
     fontSize: 16,
   },
-  imagePromocionesContainer: {
-    width: 150,
-    paddingHorizontal: 3,
-    borderWidth: 0,
-    borderRadius: 15,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    shadowOpacity: 0.2,
-    shadowRadius: 15,
-
-    elevation: 2,
-  },
-  imagePromociones: {
-    width: '100%',
-    height: 100,
-    borderRadius: 15,
-  },
-  cardProductosDestacados: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-  },
-  imageProductosDestacadosContainer: {
-    width: '33%',
-    marginVertical: 3,
-    paddingHorizontal: 3,
-    borderWidth: 0,
-    borderRadius: 15,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    shadowOpacity: 0.2,
-    shadowRadius: 15,
-    elevation: 2,
-  },
-
-  imageProductosDestacados: {
-    width: '100%',
-    height: 100,
-    borderRadius: 15,
-  },
-  textVerProductos: {
-    textAlign: 'center',
-    paddingTop: 10,
-    textDecorationLine: 'underline',
+  textRedes: {
+    backgroundColor: 'orange',
+    paddingBottom: 5,
+    marginBottom: 15,
+    borderBottomWidth: 0.2,
+    borderColor: 'grey',
+    color: 'black',
     fontFamily: 'Roboto-Medium',
     fontSize: 16,
   },
+  // imagePromocionesContainer: {
+  //   width: 150,
+  //   paddingHorizontal: 3,
+  //   borderWidth: 0,
+  //   borderRadius: 15,
+  //   shadowColor: '#000',
+  //   shadowOffset: {
+  //     width: 0,
+  //     height: 1,
+  //   },
+  //   shadowOpacity: 0.2,
+  //   shadowRadius: 15,
+  //   elevation: 2,
+  // },
+  // imagePromociones: {
+  //   width: '100%',
+  //   height: 100,
+  //   borderRadius: 15,
+  // },
+  // imageProductosDestacadosContainer: {
+  //   width: '33%',
+  //   marginVertical: 3,
+  //   paddingHorizontal: 3,
+  //   borderWidth: 0,
+  //   borderRadius: 15,
+  //   shadowColor: '#000',
+  //   shadowOffset: {
+  //     width: 0,
+  //     height: 1,
+  //   },
+  //   shadowOpacity: 0.2,
+  //   shadowRadius: 15,
+  //   elevation: 2,
+  // },
+  // imageProductosDestacados: {
+  //   width: '100%',
+  //   height: 100,
+  //   borderRadius: 15,
+  // },
+  // textVerProductos: {
+  //   textAlign: 'center',
+  //   paddingTop: 10,
+  //   textDecorationLine: 'underline',
+  //   fontFamily: 'Roboto-Medium',
+  //   fontSize: 16,
+  // },
   redesSocialesContainer: {
     flexDirection: 'row',
-    justifyContent: 'space-around',
+    justifyContent: 'space-evenly',
   },
   iconosRedesSociales: {
     width: 55,

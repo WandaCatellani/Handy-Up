@@ -13,7 +13,7 @@ const ServiceReducer = (state = initialState, action) => {
     case SELECT_SERVICE:
       return {
         ...state,
-        selected: action.services.find(
+        selected: state.services.find(
           (service) => service.id === action.serviceID
         ),
       };
@@ -26,7 +26,7 @@ const ServiceReducer = (state = initialState, action) => {
         ),
       };
     default:
-      return state;
+      return { ...state };
   }
 };
 
