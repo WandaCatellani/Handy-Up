@@ -1,6 +1,5 @@
 import {
   Image,
-  Linking,
   ScrollView,
   StyleSheet,
   Text,
@@ -15,15 +14,18 @@ import {
 import { useDispatch, useSelector } from 'react-redux';
 
 import CardContainer from '../../components/CardContainer/CardContainer';
+import SocialMedia from '../../components/SocialMedia/SocialMedia';
 import colors from '../../constants/colors';
 
 export default function Services({ navigation }) {
   const dispatch = useDispatch();
   const item = useSelector((state) => state.categories.selected);
   const services = useSelector((state) => state.services.filteredServices);
+  const service = useSelector((state) => state.services.services);
 
   console.log(item.name);
   console.log(services.name);
+  console.log(service.name);
 
   useEffect(() => {
     dispatch(filterService(item.id));
@@ -62,7 +64,7 @@ export default function Services({ navigation }) {
             <TouchableOpacity onPress={() => handleClose()}>
               <View>
                 <Image
-                  source={require('../../../assets/iconClose.png')}
+                  source={require('../../../assets/img//icon-close.png')}
                   style={styles.iconoClose}
                 />
               </View>
@@ -109,59 +111,7 @@ export default function Services({ navigation }) {
         </CardContainer>
 
         {/* REDES SOCIALES */}
-        <CardContainer>
-          <Text style={styles.textRedes}>Redes Sociales</Text>
-
-          <View style={styles.redesSocialesContainer}>
-            <TouchableOpacity
-              onPress={() => {
-                Linking.openURL('https:/instagram.com');
-              }}
-            >
-              <View>
-                <Image
-                  source={require('../../../assets/instagram.png')}
-                  // source={{
-                  //   uri: 'https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-512.png',
-                  // }}
-                  style={styles.iconosRedesSociales}
-                />
-              </View>
-            </TouchableOpacity>
-
-            <TouchableOpacity
-              onPress={() => {
-                Linking.openURL('https:/facebook.com');
-              }}
-            >
-              <View>
-                <Image
-                  source={require('../../../assets/facebook.png')}
-                  // source={{
-                  //   uri: 'https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-512.png',
-                  // }}
-                  style={styles.iconosRedesSociales}
-                />
-              </View>
-            </TouchableOpacity>
-
-            <TouchableOpacity
-              onPress={() => {
-                Linking.openURL('https://api.whatsapp.com');
-              }}
-            >
-              <View>
-                <Image
-                  source={require('../../../assets/whatsApp.png')}
-                  // source={{
-                  //   uri: 'https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Whatsapp_svg2-512.png',
-                  // }}
-                  style={styles.iconosRedesSociales}
-                />
-              </View>
-            </TouchableOpacity>
-          </View>
-        </CardContainer>
+        <SocialMedia />
       </ScrollView>
     </View>
   );
@@ -191,6 +141,7 @@ const styles = StyleSheet.create({
   },
   textName: {
     fontFamily: 'Roboto-Medium',
+    color: colors.primary,
     fontSize: 20,
     width: 200,
     paddingBottom: 10,
@@ -206,33 +157,18 @@ const styles = StyleSheet.create({
     fontFamily: 'Roboto-Light',
     fontSize: 14,
   },
-
   descripcion: {
     marginVertical: 20,
-    backgroundColor: colors.primary,
+    backgroundColor: colors.accent,
   },
-  // containerInferiorCard: {
-  //   flexDirection: 'row',
-  //   justifyContent: 'space-around',
-  //   alignItems: 'center',
-  // },
-  // iconosInferioresCard: {
-  //   width: 20,
-  //   height: 20,
-  // },
-  // cardPromociones: {
-  //   flexDirection: 'row',
-  //   justifyContent: 'space-around',
-  // },
   textDestacado: {
     paddingBottom: 5,
     marginBottom: 15,
-    borderBottomWidth: 0.2,
-    borderColor: 'grey',
-    color: 'black',
+    borderBottomWidth: 0.5,
+    borderColor: colors.primary,
+    color: colors.black,
     fontFamily: 'Roboto-Medium',
     fontSize: 16,
-    backgroundColor: 'pink',
   },
   cardProductosDestacados: {
     flexDirection: 'row',
@@ -240,77 +176,12 @@ const styles = StyleSheet.create({
     backgroundColor: 'blue',
   },
   textServices: {
-    backgroundColor: 'yellow',
     paddingBottom: 5,
     marginBottom: 15,
-    borderBottomWidth: 0.2,
-    borderColor: 'grey',
+    borderBottomWidth: 0.5,
+    borderColor: colors.primary,
     color: 'black',
     fontFamily: 'Roboto-Medium',
     fontSize: 16,
-  },
-  textRedes: {
-    backgroundColor: 'orange',
-    paddingBottom: 5,
-    marginBottom: 15,
-    borderBottomWidth: 0.2,
-    borderColor: 'grey',
-    color: 'black',
-    fontFamily: 'Roboto-Medium',
-    fontSize: 16,
-  },
-  // imagePromocionesContainer: {
-  //   width: 150,
-  //   paddingHorizontal: 3,
-  //   borderWidth: 0,
-  //   borderRadius: 15,
-  //   shadowColor: '#000',
-  //   shadowOffset: {
-  //     width: 0,
-  //     height: 1,
-  //   },
-  //   shadowOpacity: 0.2,
-  //   shadowRadius: 15,
-  //   elevation: 2,
-  // },
-  // imagePromociones: {
-  //   width: '100%',
-  //   height: 100,
-  //   borderRadius: 15,
-  // },
-  // imageProductosDestacadosContainer: {
-  //   width: '33%',
-  //   marginVertical: 3,
-  //   paddingHorizontal: 3,
-  //   borderWidth: 0,
-  //   borderRadius: 15,
-  //   shadowColor: '#000',
-  //   shadowOffset: {
-  //     width: 0,
-  //     height: 1,
-  //   },
-  //   shadowOpacity: 0.2,
-  //   shadowRadius: 15,
-  //   elevation: 2,
-  // },
-  // imageProductosDestacados: {
-  //   width: '100%',
-  //   height: 100,
-  //   borderRadius: 15,
-  // },
-  // textVerProductos: {
-  //   textAlign: 'center',
-  //   paddingTop: 10,
-  //   textDecorationLine: 'underline',
-  //   fontFamily: 'Roboto-Medium',
-  //   fontSize: 16,
-  // },
-  redesSocialesContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-evenly',
-  },
-  iconosRedesSociales: {
-    width: 55,
-    height: 55,
   },
 });

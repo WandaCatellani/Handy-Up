@@ -52,7 +52,7 @@ export default function Home({ navigation }) {
 const styles = StyleSheet.create({
   screen: {
     width: '100%',
-    backgroundColor: colors.primary,
+    backgroundColor: colors.orange,
   },
   container: {
     height: '100%',

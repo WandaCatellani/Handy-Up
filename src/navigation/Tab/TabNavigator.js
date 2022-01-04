@@ -14,7 +14,7 @@ const Tab = createMaterialBottomTabNavigator();
 
 const TabNavigator = () => {
   return (
-    <Tab.Navigator activeColor={colors.black} barStyle={style.navigator}>
+    <Tab.Navigator activeColor={colors.primary} barStyle={style.navigator}>
       <Tab.Screen
         name='Home'
         component={CategoriesNavigator}
@@ -76,6 +76,6 @@ export default TabNavigator;
 
 const style = StyleSheet.create({
   navigator: {
-    backgroundColor: colors.primary,
+    backgroundColor: colors.white,
   },
 });

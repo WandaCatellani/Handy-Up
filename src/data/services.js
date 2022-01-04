@@ -5,7 +5,7 @@ export const SERVICES = [
     name: 'Instalación',
     description:
       '¿Problemas con tu aire acondicionado? En x tenés cientos de profesionales especializados en reparación de aire acondicionado (A/A) en Córdoba que te ayudarán a solucionar los problemas que tu aparato de aire o split pueden generar (compresor que no calienta, el equipo no enfría, la unidad no enciende, demasiado ruido...). También encontrarás un servicio de instalación de aire acondicionado económico y de calidad. Seleccioná el profesional con mejores valoraciones y pedí una cotización a través del chat. ¡Tendrás tu equipo listo en poco tiempo!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/8k3S3dMp/icono-aire-acondicionado.png',
     destacado: true,
   },
   {
@@ -14,7 +14,7 @@ export const SERVICES = [
     name: 'Reparación',
     description:
       '¿Problemas con tu aire acondicionado? En x tenés cientos de profesionales especializados en reparación de aire acondicionado (A/A) en Córdoba que te ayudarán a solucionar los problemas que tu aparato de aire o split pueden generar (compresor que no calienta, el equipo no enfría, la unidad no enciende, demasiado ruido...). También encontrarás un servicio de instalación de aire acondicionado económico y de calidad. Seleccioná el profesional con mejores valoraciones y pedí una cotización a través del chat. ¡Tendrás tu equipo listo en poco tiempo!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/8k3S3dMp/icono-aire-acondicionado.png',
     destacado: true,
   },
   {
@@ -23,7 +23,7 @@ export const SERVICES = [
     name: 'Ceramicos y azulejos',
     description:
       '¿Cuánto tiempo lleva eso roto? Todos tenemos una lista interminable de tareas o problemas a resolver en nuestro hogar, no te preocupes. Gracias a timbrit podés contactar con cientos de albañiles para reformas, construcciones o tareas de bricolage en casa. Con la app de timbrit es fácil encontrar en Córdoba un albañil o una empresa de reformas u obras que se adapte a tus necesidades y presupuesto. Desde la app podés realizar solicitudes de trabajo y chatear con los profesionales. ¿A qué esperas? Es totalmente gratuito.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/bJJ7VdvS/icono-albanil.png',
     destacado: false,
   },
   {
@@ -32,7 +32,7 @@ export const SERVICES = [
     name: 'Construccion en seco',
     description:
       '¿Cuánto tiempo lleva eso roto? Todos tenemos una lista interminable de tareas o problemas a resolver en nuestro hogar, no te preocupes. Gracias a timbrit podés contactar con cientos de albañiles para reformas, construcciones o tareas de bricolage en casa. Con la app de timbrit es fácil encontrar en Córdoba un albañil o una empresa de reformas u obras que se adapte a tus necesidades y presupuesto. Desde la app podés realizar solicitudes de trabajo y chatear con los profesionales. ¿A qué esperas? Es totalmente gratuito.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/bJJ7VdvS/icono-albanil.png',
     destacado: false,
   },
   {
@@ -41,7 +41,7 @@ export const SERVICES = [
     name: 'Escaleras',
     description:
       '¿Cuánto tiempo lleva eso roto? Todos tenemos una lista interminable de tareas o problemas a resolver en nuestro hogar, no te preocupes. Gracias a timbrit podés contactar con cientos de albañiles para reformas, construcciones o tareas de bricolage en casa. Con la app de timbrit es fácil encontrar en Córdoba un albañil o una empresa de reformas u obras que se adapte a tus necesidades y presupuesto. Desde la app podés realizar solicitudes de trabajo y chatear con los profesionales. ¿A qué esperas? Es totalmente gratuito.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/bJJ7VdvS/icono-albanil.png',
     destacado: false,
   },
   {
@@ -50,7 +50,7 @@ export const SERVICES = [
     name: 'Impermeabilizaciones',
     description:
       '¿Cuánto tiempo lleva eso roto? Todos tenemos una lista interminable de tareas o problemas a resolver en nuestro hogar, no te preocupes. Gracias a timbrit podés contactar con cientos de albañiles para reformas, construcciones o tareas de bricolage en casa. Con la app de timbrit es fácil encontrar en Córdoba un albañil o una empresa de reformas u obras que se adapte a tus necesidades y presupuesto. Desde la app podés realizar solicitudes de trabajo y chatear con los profesionales. ¿A qué esperas? Es totalmente gratuito.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/bJJ7VdvS/icono-albanil.png',
     destacado: true,
   },
   {
@@ -59,7 +59,7 @@ export const SERVICES = [
     name: 'Muros',
     description:
       '¿Cuánto tiempo lleva eso roto? Todos tenemos una lista interminable de tareas o problemas a resolver en nuestro hogar, no te preocupes. Gracias a timbrit podés contactar con cientos de albañiles para reformas, construcciones o tareas de bricolage en casa. Con la app de timbrit es fácil encontrar en Córdoba un albañil o una empresa de reformas u obras que se adapte a tus necesidades y presupuesto. Desde la app podés realizar solicitudes de trabajo y chatear con los profesionales. ¿A qué esperas? Es totalmente gratuito.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/bJJ7VdvS/icono-albanil.png',
     destacado: false,
   },
   {
@@ -68,7 +68,7 @@ export const SERVICES = [
     name: 'Reformas y arreglos',
     description:
       '¿Cuánto tiempo lleva eso roto? Todos tenemos una lista interminable de tareas o problemas a resolver en nuestro hogar, no te preocupes. Gracias a timbrit podés contactar con cientos de albañiles para reformas, construcciones o tareas de bricolage en casa. Con la app de timbrit es fácil encontrar en Córdoba un albañil o una empresa de reformas u obras que se adapte a tus necesidades y presupuesto. Desde la app podés realizar solicitudes de trabajo y chatear con los profesionales. ¿A qué esperas? Es totalmente gratuito.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/bJJ7VdvS/icono-albanil.png',
     destacado: true,
   },
   {
@@ -77,7 +77,7 @@ export const SERVICES = [
     name: 'Sanitarios',
     description:
       '¿Cuánto tiempo lleva eso roto? Todos tenemos una lista interminable de tareas o problemas a resolver en nuestro hogar, no te preocupes. Gracias a timbrit podés contactar con cientos de albañiles para reformas, construcciones o tareas de bricolage en casa. Con la app de timbrit es fácil encontrar en Córdoba un albañil o una empresa de reformas u obras que se adapte a tus necesidades y presupuesto. Desde la app podés realizar solicitudes de trabajo y chatear con los profesionales. ¿A qué esperas? Es totalmente gratuito.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/bJJ7VdvS/icono-albanil.png',
     destacado: true,
   },
   {
@@ -86,7 +86,7 @@ export const SERVICES = [
     name: 'Suelos',
     description:
       '¿Cuánto tiempo lleva eso roto? Todos tenemos una lista interminable de tareas o problemas a resolver en nuestro hogar, no te preocupes. Gracias a timbrit podés contactar con cientos de albañiles para reformas, construcciones o tareas de bricolage en casa. Con la app de timbrit es fácil encontrar en Córdoba un albañil o una empresa de reformas u obras que se adapte a tus necesidades y presupuesto. Desde la app podés realizar solicitudes de trabajo y chatear con los profesionales. ¿A qué esperas? Es totalmente gratuito.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/bJJ7VdvS/icono-albanil.png',
     destacado: false,
   },
   {
@@ -95,7 +95,7 @@ export const SERVICES = [
     name: 'Techos',
     description:
       '¿Cuánto tiempo lleva eso roto? Todos tenemos una lista interminable de tareas o problemas a resolver en nuestro hogar, no te preocupes. Gracias a timbrit podés contactar con cientos de albañiles para reformas, construcciones o tareas de bricolage en casa. Con la app de timbrit es fácil encontrar en Córdoba un albañil o una empresa de reformas u obras que se adapte a tus necesidades y presupuesto. Desde la app podés realizar solicitudes de trabajo y chatear con los profesionales. ¿A qué esperas? Es totalmente gratuito.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/bJJ7VdvS/icono-albanil.png',
     destacado: false,
   },
   {
@@ -104,7 +104,7 @@ export const SERVICES = [
     name: 'Terrazas',
     description:
       '¿Cuánto tiempo lleva eso roto? Todos tenemos una lista interminable de tareas o problemas a resolver en nuestro hogar, no te preocupes. Gracias a timbrit podés contactar con cientos de albañiles para reformas, construcciones o tareas de bricolage en casa. Con la app de timbrit es fácil encontrar en Córdoba un albañil o una empresa de reformas u obras que se adapte a tus necesidades y presupuesto. Desde la app podés realizar solicitudes de trabajo y chatear con los profesionales. ¿A qué esperas? Es totalmente gratuito.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/bJJ7VdvS/icono-albanil.png',
     destacado: false,
   },
   {
@@ -113,7 +113,7 @@ export const SERVICES = [
     name: 'Construcción',
     description:
       'Buscá un arquitecto para tu próximo proyecto, contale tu idea y dejate aconsejar. En x te acercamos a los mejores arquitectos de Córdoba para que puedas elegir vos mismo. Hacé una solicitud de trabajo y detallá que tipo de servicio necesitás: planos, construcción, parrilla o arquitectura en general. Agilizá tu proyecto con timbrit chateando con los profesionales y eligiendo al que mejor se adapta a tus necesidades.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/XJzTR3ZH/icono-arquitecto.png',
     destacado: true,
   },
   {
@@ -122,7 +122,7 @@ export const SERVICES = [
     name: 'Planos',
     description:
       'Buscá un arquitecto para tu próximo proyecto, contale tu idea y dejate aconsejar. En x te acercamos a los mejores arquitectos de Córdoba para que puedas elegir vos mismo. Hacé una solicitud de trabajo y detallá que tipo de servicio necesitás: planos, construcción, parrilla o arquitectura en general. Agilizá tu proyecto con timbrit chateando con los profesionales y eligiendo al que mejor se adapta a tus necesidades.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/XJzTR3ZH/icono-arquitecto.png',
     destacado: false,
   },
   {
@@ -131,7 +131,7 @@ export const SERVICES = [
     name: 'Quinchos',
     description:
       'Buscá un arquitecto para tu próximo proyecto, contale tu idea y dejate aconsejar. En x te acercamos a los mejores arquitectos de Córdoba para que puedas elegir vos mismo. Hacé una solicitud de trabajo y detallá que tipo de servicio necesitás: planos, construcción, parrilla o arquitectura en general. Agilizá tu proyecto con timbrit chateando con los profesionales y eligiendo al que mejor se adapta a tus necesidades.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/XJzTR3ZH/icono-arquitecto.png',
     destacado: false,
   },
   {
@@ -140,7 +140,7 @@ export const SERVICES = [
     name: 'Cambio de neumáticos domicilio',
     description:
       '¿Problemas con el auto? Ahorrate el viaje al taller y recibí un mecánico a domicilio en Córdoba. La tecnología de diagnóstico con computadora permite que el mecánico pueda revisar tu auto sin que tengas que moverte de casa. Con x contactá fácilmente a diversos expertos en automóviles de confianza, hacé tu elección en base a las valoraciones y reseñas de la app y el profesional irá a tu casa para hacer el trabajo de mantenimiento y reparación que necesites para solucionar cualquier problema que tengas con tu vehículo.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/xjkCc1Pd/icono-automocion.png',
     destacado: false,
   },
   {
@@ -149,7 +149,7 @@ export const SERVICES = [
     name: 'Grúas a domicilio',
     description:
       '¿Problemas con el auto? Ahorrate el viaje al taller y recibí un mecánico a domicilio en Córdoba. La tecnología de diagnóstico con computadora permite que el mecánico pueda revisar tu auto sin que tengas que moverte de casa. Con x contactá fácilmente a diversos expertos en automóviles de confianza, hacé tu elección en base a las valoraciones y reseñas de la app y el profesional irá a tu casa para hacer el trabajo de mantenimiento y reparación que necesites para solucionar cualquier problema que tengas con tu vehículo.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/xjkCc1Pd/icono-automocion.png',
     destacado: false,
   },
   {
@@ -158,7 +158,7 @@ export const SERVICES = [
     name: 'Limpieza a domicilio',
     description:
       '¿Problemas con el auto? Ahorrate el viaje al taller y recibí un mecánico a domicilio en Córdoba. La tecnología de diagnóstico con computadora permite que el mecánico pueda revisar tu auto sin que tengas que moverte de casa. Con x contactá fácilmente a diversos expertos en automóviles de confianza, hacé tu elección en base a las valoraciones y reseñas de la app y el profesional irá a tu casa para hacer el trabajo de mantenimiento y reparación que necesites para solucionar cualquier problema que tengas con tu vehículo.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/xjkCc1Pd/icono-automocion.png',
     destacado: false,
   },
   {
@@ -167,7 +167,7 @@ export const SERVICES = [
     name: 'Mantenimiento a domicilio',
     description:
       '¿Problemas con el auto? Ahorrate el viaje al taller y recibí un mecánico a domicilio en Córdoba. La tecnología de diagnóstico con computadora permite que el mecánico pueda revisar tu auto sin que tengas que moverte de casa. Con x contactá fácilmente a diversos expertos en automóviles de confianza, hacé tu elección en base a las valoraciones y reseñas de la app y el profesional irá a tu casa para hacer el trabajo de mantenimiento y reparación que necesites para solucionar cualquier problema que tengas con tu vehículo.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/xjkCc1Pd/icono-automocion.png',
     destacado: false,
   },
   {
@@ -176,7 +176,7 @@ export const SERVICES = [
     name: 'Reparaciones a domicilio',
     description:
       '¿Problemas con el auto? Ahorrate el viaje al taller y recibí un mecánico a domicilio en Córdoba. La tecnología de diagnóstico con computadora permite que el mecánico pueda revisar tu auto sin que tengas que moverte de casa. Con x contactá fácilmente a diversos expertos en automóviles de confianza, hacé tu elección en base a las valoraciones y reseñas de la app y el profesional irá a tu casa para hacer el trabajo de mantenimiento y reparación que necesites para solucionar cualquier problema que tengas con tu vehículo.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/xjkCc1Pd/icono-automocion.png',
     destacado: false,
   },
   {
@@ -185,7 +185,7 @@ export const SERVICES = [
     name: 'Depilación en casa',
     description:
       'Disfrutá de tratamientos de belleza sin salir de tu casa en Córdoba. ¿Qué mimo querés darte: manicura, pedicura, un buen tratamiento de estética facial? O tal vez tenés un evento y buscás un maquillaje y peinado que sea la estrella de la fiesta. Encontrá en x expertos en belleza que van hasta tu casa para que disfrutes de los mejores tratamientos de estética desde la comodidad de tu hogar.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/kDrL5cvW/icono-belleza.png',
     destacado: true,
   },
   {
@@ -194,7 +194,7 @@ export const SERVICES = [
     name: 'Estética facial en casa',
     description:
       'Disfrutá de tratamientos de belleza sin salir de tu casa en Córdoba. ¿Qué mimo querés darte: manicura, pedicura, un buen tratamiento de estética facial? O tal vez tenés un evento y buscás un maquillaje y peinado que sea la estrella de la fiesta. Encontrá en x expertos en belleza que van hasta tu casa para que disfrutes de los mejores tratamientos de estética desde la comodidad de tu hogar.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/kDrL5cvW/icono-belleza.png',
     destacado: false,
   },
   {
@@ -203,7 +203,7 @@ export const SERVICES = [
     name: 'Manicura en casa',
     description:
       'Disfrutá de tratamientos de belleza sin salir de tu casa en Córdoba. ¿Qué mimo querés darte: manicura, pedicura, un buen tratamiento de estética facial? O tal vez tenés un evento y buscás un maquillaje y peinado que sea la estrella de la fiesta. Encontrá en x expertos en belleza que van hasta tu casa para que disfrutes de los mejores tratamientos de estética desde la comodidad de tu hogar.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/kDrL5cvW/icono-belleza.png',
     destacado: true,
   },
   {
@@ -212,7 +212,7 @@ export const SERVICES = [
     name: 'Maquillaje en casa',
     description:
       'Disfrutá de tratamientos de belleza sin salir de tu casa en Córdoba. ¿Qué mimo querés darte: manicura, pedicura, un buen tratamiento de estética facial? O tal vez tenés un evento y buscás un maquillaje y peinado que sea la estrella de la fiesta. Encontrá en x expertos en belleza que van hasta tu casa para que disfrutes de los mejores tratamientos de estética desde la comodidad de tu hogar.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/kDrL5cvW/icono-belleza.png',
     destacado: true,
   },
   {
@@ -220,7 +220,7 @@ export const SERVICES = [
     category: '5',
     name: '',
     description: '',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/kDrL5cvW/icono-belleza.png',
     destacado: true,
   },
   {
@@ -229,7 +229,7 @@ export const SERVICES = [
     name: 'Pedicura en casa',
     description:
       'Disfrutá de tratamientos de belleza sin salir de tu casa en Córdoba. ¿Qué mimo querés darte: manicura, pedicura, un buen tratamiento de estética facial? O tal vez tenés un evento y buscás un maquillaje y peinado que sea la estrella de la fiesta. Encontrá en x expertos en belleza que van hasta tu casa para que disfrutes de los mejores tratamientos de estética desde la comodidad de tu hogar.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/kDrL5cvW/icono-belleza.png',
     destacado: true,
   },
   {
@@ -238,7 +238,7 @@ export const SERVICES = [
     name: 'Peluquería en casa',
     description:
       'Disfrutá de tratamientos de belleza sin salir de tu casa en Córdoba. ¿Qué mimo querés darte: manicura, pedicura, un buen tratamiento de estética facial? O tal vez tenés un evento y buscás un maquillaje y peinado que sea la estrella de la fiesta. Encontrá en x expertos en belleza que van hasta tu casa para que disfrutes de los mejores tratamientos de estética desde la comodidad de tu hogar.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/kDrL5cvW/icono-belleza.png',
     destacado: false,
   },
   {
@@ -247,7 +247,7 @@ export const SERVICES = [
     name: 'Asesor de nutrición',
     description:
       'En x también encontrás expertos en bienestar en Buenos Aires quienes te ayudarán a mejorar tu salud física y mental. Entrenadores personales, asesores nutricionales y especialistas en mindfulness te esperan para asesorarte a distancia, hacé tu solicitud y en minutos vas a poder chatear con ellos para coordinar tu próximo turno y empezar a cambiar tu estilo de vida. La inversión en salud es la mejor inversión que podés hacer. ¿Qué estas esperando? ¡Es muy fácil!!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/fyS6ZFmw/icono-bienestar.png',
     destacado: false,
   },
   {
@@ -256,7 +256,7 @@ export const SERVICES = [
     name: 'Entrenador personal',
     description:
       'En x también encontrás expertos en bienestar en Buenos Aires quienes te ayudarán a mejorar tu salud física y mental. Entrenadores personales, asesores nutricionales y especialistas en mindfulness te esperan para asesorarte a distancia, hacé tu solicitud y en minutos vas a poder chatear con ellos para coordinar tu próximo turno y empezar a cambiar tu estilo de vida. La inversión en salud es la mejor inversión que podés hacer. ¿Qué estas esperando? ¡Es muy fácil!!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/fyS6ZFmw/icono-bienestar.png',
     destacado: true,
   },
   {
@@ -265,7 +265,7 @@ export const SERVICES = [
     name: 'Mindfulness',
     description:
       'En x también encontrás expertos en bienestar en Buenos Aires quienes te ayudarán a mejorar tu salud física y mental. Entrenadores personales, asesores nutricionales y especialistas en mindfulness te esperan para asesorarte a distancia, hacé tu solicitud y en minutos vas a poder chatear con ellos para coordinar tu próximo turno y empezar a cambiar tu estilo de vida. La inversión en salud es la mejor inversión que podés hacer. ¿Qué estas esperando? ¡Es muy fácil!!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/fyS6ZFmw/icono-bienestar.png',
     destacado: false,
   },
   {
@@ -274,7 +274,7 @@ export const SERVICES = [
     name: 'Aberturas de aluminio',
     description:
       'Encontrá el carpintero a domicilio que estabas buscando en menos de dos minutos y desde tu celular. Abrí x, seleccioná el servicio de carpintería que necesitás (reparación de muebles, ebanistería, capintería metálica...) y completá tu solicitud para Córdoba. Los profesionales de carpintería se pondrán en contacto con vos y podrás hablar con ellos mediante el chat de x. ¡Es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/wTLjQ4Z8/icono-carpintero.png',
     destacado: false,
   },
   {
@@ -283,7 +283,7 @@ export const SERVICES = [
     name: 'Aberturas de madera',
     description:
       'Encontrá el carpintero a domicilio que estabas buscando en menos de dos minutos y desde tu celular. Abrí x, seleccioná el servicio de carpintería que necesitás (reparación de muebles, ebanistería, capintería metálica...) y completá tu solicitud para Córdoba. Los profesionales de carpintería se pondrán en contacto con vos y podrás hablar con ellos mediante el chat de x. ¡Es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/wTLjQ4Z8/icono-carpintero.png',
     destacado: false,
   },
   {
@@ -292,7 +292,7 @@ export const SERVICES = [
     name: 'Ebanistería',
     description:
       'Encontrá el carpintero a domicilio que estabas buscando en menos de dos minutos y desde tu celular. Abrí x, seleccioná el servicio de carpintería que necesitás (reparación de muebles, ebanistería, capintería metálica...) y completá tu solicitud para Córdoba. Los profesionales de carpintería se pondrán en contacto con vos y podrás hablar con ellos mediante el chat de x. ¡Es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/wTLjQ4Z8/icono-carpintero.png',
     destacado: false,
   },
   {
@@ -301,7 +301,7 @@ export const SERVICES = [
     name: 'Machimbre',
     description:
       'Encontrá el carpintero a domicilio que estabas buscando en menos de dos minutos y desde tu celular. Abrí x, seleccioná el servicio de carpintería que necesitás (reparación de muebles, ebanistería, capintería metálica...) y completá tu solicitud para Córdoba. Los profesionales de carpintería se pondrán en contacto con vos y podrás hablar con ellos mediante el chat de x. ¡Es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/wTLjQ4Z8/icono-carpintero.png',
     destacado: false,
   },
   {
@@ -310,7 +310,7 @@ export const SERVICES = [
     name: 'Muebles',
     description:
       'Encontrá el carpintero a domicilio que estabas buscando en menos de dos minutos y desde tu celular. Abrí x, seleccioná el servicio de carpintería que necesitás (reparación de muebles, ebanistería, capintería metálica...) y completá tu solicitud para Córdoba. Los profesionales de carpintería se pondrán en contacto con vos y podrás hablar con ellos mediante el chat de x. ¡Es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/wTLjQ4Z8/icono-carpintero.png',
     destacado: true,
   },
   {
@@ -319,7 +319,7 @@ export const SERVICES = [
     name: 'PVC',
     description:
       'Encontrá el carpintero a domicilio que estabas buscando en menos de dos minutos y desde tu celular. Abrí x, seleccioná el servicio de carpintería que necesitás (reparación de muebles, ebanistería, capintería metálica...) y completá tu solicitud para Córdoba. Los profesionales de carpintería se pondrán en contacto con vos y podrás hablar con ellos mediante el chat de x. ¡Es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/wTLjQ4Z8/icono-carpintero.png',
     destacado: true,
   },
   {
@@ -328,7 +328,7 @@ export const SERVICES = [
     name: 'Cerraduras',
     description:
       '¿Te dejaste las llaves dentro de casa? ¿Y tu celular? ¡Necesitás un cerrajero 24 horas! Si tenés tu smartphone en el bolsillo sacalo, hacé una solicitud y buscá cerrajería Córdoba. Te recomendamos que selecciones la opción de "timbrar a todos los profesionales" para conseguir respuestas más rápido y contar con un mayor número de cotizaciones de cerrajería 24 horas. Hay muchos tipos de servicios de cerrajeria por eso es importante que detallés tu solicitud indicando por ejemplo si necesitás cerrajeria automovil, llaves codificadas, apertura de cerrojos, etc. No olvidés valorar al profesional por el servicio que realizó en tu hogar, eso ayudará a otros usuarios de x a encontrar buenos profesionales.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/v8pm9wPt/icono-cerrajero.png',
     destacado: true,
   },
   {
@@ -337,7 +337,7 @@ export const SERVICES = [
     name: 'Llaves',
     description:
       '¿Te dejaste las llaves dentro de casa? ¿Y tu celular? ¡Necesitás un cerrajero 24 horas! Si tenés tu smartphone en el bolsillo sacalo, hacé una solicitud y buscá cerrajería Córdoba. Te recomendamos que selecciones la opción de "timbrar a todos los profesionales" para conseguir respuestas más rápido y contar con un mayor número de cotizaciones de cerrajería 24 horas. Hay muchos tipos de servicios de cerrajeria por eso es importante que detallés tu solicitud indicando por ejemplo si necesitás cerrajeria automovil, llaves codificadas, apertura de cerrojos, etc. No olvidés valorar al profesional por el servicio que realizó en tu hogar, eso ayudará a otros usuarios de x a encontrar buenos profesionales.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/v8pm9wPt/icono-cerrajero.png',
     destacado: false,
   },
   {
@@ -346,7 +346,7 @@ export const SERVICES = [
     name: 'Alfombras',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: false,
   },
   {
@@ -355,7 +355,7 @@ export const SERVICES = [
     name: 'Armado de muebles',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: true,
   },
   {
@@ -364,7 +364,7 @@ export const SERVICES = [
     name: 'Ascensores',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: false,
   },
   {
@@ -373,7 +373,7 @@ export const SERVICES = [
     name: 'Cortinas',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: false,
   },
   {
@@ -382,7 +382,7 @@ export const SERVICES = [
     name: 'Cristales',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: false,
   },
   {
@@ -391,7 +391,7 @@ export const SERVICES = [
     name: 'Cuadros',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: false,
   },
   {
@@ -400,7 +400,7 @@ export const SERVICES = [
     name: 'Instalación de persianas',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: true,
   },
   {
@@ -409,7 +409,7 @@ export const SERVICES = [
     name: 'Marmol',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: true,
   },
   {
@@ -418,7 +418,7 @@ export const SERVICES = [
     name: 'Muebles de Cocina',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: true,
   },
   {
@@ -427,7 +427,7 @@ export const SERVICES = [
     name: 'Parquet',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: true,
   },
   {
@@ -436,7 +436,7 @@ export const SERVICES = [
     name: 'Pisos en Hormigón',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: false,
   },
   {
@@ -445,7 +445,7 @@ export const SERVICES = [
     name: 'Pisos flotantes',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: false,
   },
   {
@@ -454,7 +454,7 @@ export const SERVICES = [
     name: 'Pulido y plastificado de pisos',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: false,
   },
   {
@@ -463,7 +463,7 @@ export const SERVICES = [
     name: 'Toldos',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: true,
   },
   {
@@ -472,17 +472,16 @@ export const SERVICES = [
     name: 'Ventiladores de techo',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: false,
   },
-
   {
     id: '54',
     category: '9',
     name: 'Vidrios y espejos',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: false,
   },
   {
@@ -491,7 +490,7 @@ export const SERVICES = [
     name: 'Zinguería',
     description:
       '¿Buscás un instalador en Córdoba? Realmente lo que vos estás buscando es un profesional que te ayude con todas esas tareas específicas de tu hogar. En timbrit podés conseguir un instalador capaz de instalar aire acondicionado, realizar pulido y plastificado de pisos, instalación de ventiladores de techo, trabajos con marmol, toldos y hasta armado de muebles. Sabemos que es dificil encontrar profesionales confiables para realizar instalaciones en Córdoba, por eso queremos ayudarte desde la aplicación de timbrit. Nunca había sido tan fácil solucionar los problemas del hogar. ¡Probá con x, es completamente gratuito!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DwVQZDkS/icono-colocador.png',
     destacado: false,
   },
   {
@@ -500,7 +499,7 @@ export const SERVICES = [
     name: 'Control de aves',
     description:
       'Desde la aplicación de x podés encontrar profesionales especializados en exterminio de cucarachas o empresas de fumigación en Córdoba con un par de clicks. La app tiene la categoría de control de plagas donde hay profesionales para acabar con las hormigas de tu hogar, matar ratones o acabar con las cucarachas. Es importante realizar tu solicitud de trabajo rápido ya que los insectos y roedores se multiplican rápidamente y cada día cuenta. Conseguir expertos en control de plagas es rápido, fácil y sencillo desde tu celular.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/13KRLnyv/icono-control-plagas.png',
     destacado: false,
   },
   {
@@ -509,7 +508,7 @@ export const SERVICES = [
     name: 'Control de insectos',
     description:
       'Desde la aplicación de x podés encontrar profesionales especializados en exterminio de cucarachas o empresas de fumigación en Córdoba con un par de clicks. La app tiene la categoría de control de plagas donde hay profesionales para acabar con las hormigas de tu hogar, matar ratones o acabar con las cucarachas. Es importante realizar tu solicitud de trabajo rápido ya que los insectos y roedores se multiplican rápidamente y cada día cuenta. Conseguir expertos en control de plagas es rápido, fácil y sencillo desde tu celular.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/13KRLnyv/icono-control-plagas.png',
     destacado: true,
   },
   {
@@ -518,7 +517,7 @@ export const SERVICES = [
     name: 'Control de roedores',
     description:
       'Desde la aplicación de x podés encontrar profesionales especializados en exterminio de cucarachas o empresas de fumigación en Córdoba con un par de clicks. La app tiene la categoría de control de plagas donde hay profesionales para acabar con las hormigas de tu hogar, matar ratones o acabar con las cucarachas. Es importante realizar tu solicitud de trabajo rápido ya que los insectos y roedores se multiplican rápidamente y cada día cuenta. Conseguir expertos en control de plagas es rápido, fácil y sencillo desde tu celular.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/13KRLnyv/icono-control-plagas.png',
     destacado: false,
   },
   {
@@ -527,7 +526,7 @@ export const SERVICES = [
     name: 'Plagas de madera',
     description:
       'Desde la aplicación de x podés encontrar profesionales especializados en exterminio de cucarachas o empresas de fumigación en Córdoba con un par de clicks. La app tiene la categoría de control de plagas donde hay profesionales para acabar con las hormigas de tu hogar, matar ratones o acabar con las cucarachas. Es importante realizar tu solicitud de trabajo rápido ya que los insectos y roedores se multiplican rápidamente y cada día cuenta. Conseguir expertos en control de plagas es rápido, fácil y sencillo desde tu celular.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/13KRLnyv/icono-control-plagas.png',
     destacado: false,
   },
   {
@@ -536,7 +535,7 @@ export const SERVICES = [
     name: 'Adultos mayores',
     description:
       'En x, la aplicación de servicios para el hogar, tenemos cuidadores domiciliarios en Córdoba que se encargan de cuidar a ancianos y personas con necesidades especiales. Desde la app de servicios para el hogar también podés encontrar enfermeras a domicilio que se desplacen hasta tu casa para ofrecer el servicio que necesitás. Hacé tu primera solicitud a un profesional confiable que encontrarás desde nuestra aplicación. Encontrar buenos cuidadores en Córdoba nunca había sido tan fácil. Recordá dar tu opinión al terminar el servicio para ayudar a otras personas a conseguir un cuidador de ancianos.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/VNLs1f6m/icono-cuidado-personas.png',
     destacado: false,
   },
   {
@@ -545,7 +544,7 @@ export const SERVICES = [
     name: 'Cuidado de personas',
     description:
       'En x, la aplicación de servicios para el hogar, tenemos cuidadores domiciliarios en Córdoba que se encargan de cuidar a ancianos y personas con necesidades especiales. Desde la app de servicios para el hogar también podés encontrar enfermeras a domicilio que se desplacen hasta tu casa para ofrecer el servicio que necesitás. Hacé tu primera solicitud a un profesional confiable que encontrarás desde nuestra aplicación. Encontrar buenos cuidadores en Córdoba nunca había sido tan fácil. Recordá dar tu opinión al terminar el servicio para ayudar a otras personas a conseguir un cuidador de ancianos.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/VNLs1f6m/icono-cuidado-personas.png',
     destacado: false,
   },
   {
@@ -554,7 +553,7 @@ export const SERVICES = [
     name: 'Niñera',
     description:
       'En x, la aplicación de servicios para el hogar, tenemos cuidadores domiciliarios en Córdoba que se encargan de cuidar a ancianos y personas con necesidades especiales. Desde la app de servicios para el hogar también podés encontrar enfermeras a domicilio que se desplacen hasta tu casa para ofrecer el servicio que necesitás. Hacé tu primera solicitud a un profesional confiable que encontrarás desde nuestra aplicación. Encontrar buenos cuidadores en Córdoba nunca había sido tan fácil. Recordá dar tu opinión al terminar el servicio para ayudar a otras personas a conseguir un cuidador de ancianos.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/VNLs1f6m/icono-cuidado-personas.png',
     destacado: true,
   },
   {
@@ -563,7 +562,7 @@ export const SERVICES = [
     name: 'Niños con necesidades especiales',
     description:
       'En x, la aplicación de servicios para el hogar, tenemos cuidadores domiciliarios en Córdoba que se encargan de cuidar a ancianos y personas con necesidades especiales. Desde la app de servicios para el hogar también podés encontrar enfermeras a domicilio que se desplacen hasta tu casa para ofrecer el servicio que necesitás. Hacé tu primera solicitud a un profesional confiable que encontrarás desde nuestra aplicación. Encontrar buenos cuidadores en Córdoba nunca había sido tan fácil. Recordá dar tu opinión al terminar el servicio para ayudar a otras personas a conseguir un cuidador de ancianos.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/VNLs1f6m/icono-cuidado-personas.png',
     destacado: true,
   },
   {
@@ -572,7 +571,7 @@ export const SERVICES = [
     name: 'Personas con necesidades especiales',
     description:
       'En x, la aplicación de servicios para el hogar, tenemos cuidadores domiciliarios en Córdoba que se encargan de cuidar a ancianos y personas con necesidades especiales. Desde la app de servicios para el hogar también podés encontrar enfermeras a domicilio que se desplacen hasta tu casa para ofrecer el servicio que necesitás. Hacé tu primera solicitud a un profesional confiable que encontrarás desde nuestra aplicación. Encontrar buenos cuidadores en Córdoba nunca había sido tan fácil. Recordá dar tu opinión al terminar el servicio para ayudar a otras personas a conseguir un cuidador de ancianos.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/VNLs1f6m/icono-cuidado-personas.png',
     destacado: true,
   },
   {
@@ -581,7 +580,7 @@ export const SERVICES = [
     name: 'Exteriores',
     description:
       'Decorar tu casa a tu gusto es fundamental para vivir en un hogar alegre donde te sientas cómodo. En x vas a encontrar decoradores en Córdoba para diseño de interiores, decoración de casas o diseño en general. En x tenés la opción de buscar decoradores y elegir a los mejores expertos en diseño ayudándote de las opiniones de otros usuarios. Probá con x y pronto estarás chateando con el decorador que transformará tu casa en un hogar.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/0NWkyTMm/icono-decorador.png',
     destacado: true,
   },
   {
@@ -590,7 +589,7 @@ export const SERVICES = [
     name: 'Interiores',
     description:
       'Decorar tu casa a tu gusto es fundamental para vivir en un hogar alegre donde te sientas cómodo. En x vas a encontrar decoradores en Córdoba para diseño de interiores, decoración de casas o diseño en general. En x tenés la opción de buscar decoradores y elegir a los mejores expertos en diseño ayudándote de las opiniones de otros usuarios. Probá con x y pronto estarás chateando con el decorador que transformará tu casa en un hogar.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/0NWkyTMm/icono-decorador.png',
     destacado: true,
   },
   {
@@ -599,7 +598,7 @@ export const SERVICES = [
     name: 'Tapicería',
     description:
       'Decorar tu casa a tu gusto es fundamental para vivir en un hogar alegre donde te sientas cómodo. En x vas a encontrar decoradores en Córdoba para diseño de interiores, decoración de casas o diseño en general. En x tenés la opción de buscar decoradores y elegir a los mejores expertos en diseño ayudándote de las opiniones de otros usuarios. Probá con x y pronto estarás chateando con el decorador que transformará tu casa en un hogar.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/0NWkyTMm/icono-decorador.png',
     destacado: false,
   },
   {
@@ -608,7 +607,7 @@ export const SERVICES = [
     name: 'Iluminación',
     description:
       'Algunos trabajos solo deben ser realizados por un profesional y por eso en x podés contratar electricidad domiciliaria para reparaciones o mantenimiento de sistemas eléctricos e instalaciones electricas en Córdoba. Con la app es muy fácil localizar electricistas 24 horas que se encuentran cerca de tu ubicación. Hacé tu solicitud gratis, chateá con los profesionales y seleccioná las mejores empresas de electricidad en Córdoba.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/FRY9dT36/icono-electricista.png',
     destacado: true,
   },
   {
@@ -617,7 +616,7 @@ export const SERVICES = [
     name: 'Instalaciones',
     description:
       'Algunos trabajos solo deben ser realizados por un profesional y por eso en x podés contratar electricidad domiciliaria para reparaciones o mantenimiento de sistemas eléctricos e instalaciones electricas en Córdoba. Con la app es muy fácil localizar electricistas 24 horas que se encuentran cerca de tu ubicación. Hacé tu solicitud gratis, chateá con los profesionales y seleccioná las mejores empresas de electricidad en Córdoba.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/FRY9dT36/icono-electricista.png',
     destacado: true,
   },
   {
@@ -626,7 +625,7 @@ export const SERVICES = [
     name: 'Animadores a domicilio',
     description:
       'La fiesta de tu sueños hacela realidad con el servicio de eventos particulares de x en Córdoba. En tres simples pasos ponete en contacto con especialistas en eventos y organizá cualquier tipo de celebración, cumpleaños, casamientos, bautismos, comuniones, eventos infantiles, empresariales. Tenemos profesionales que estarán a cargo de cada detalle: sonido, animación, catering, decoración, papelería, mobiliario, mozos, lo que busques para tu fiesta encontralo fácilmente en x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/j5BRzyhS/icono-eventos.png',
     destacado: false,
   },
   {
@@ -635,7 +634,7 @@ export const SERVICES = [
     name: 'Atracciones infantiles a domicilio',
     description:
       'La fiesta de tu sueños hacela realidad con el servicio de eventos particulares de x en Córdoba. En tres simples pasos ponete en contacto con especialistas en eventos y organizá cualquier tipo de celebración, cumpleaños, casamientos, bautismos, comuniones, eventos infantiles, empresariales. Tenemos profesionales que estarán a cargo de cada detalle: sonido, animación, catering, decoración, papelería, mobiliario, mozos, lo que busques para tu fiesta encontralo fácilmente en x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/j5BRzyhS/icono-eventos.png',
     destacado: true,
   },
   {
@@ -644,7 +643,7 @@ export const SERVICES = [
     name: 'Camareros a domicilio',
     description:
       'La fiesta de tu sueños hacela realidad con el servicio de eventos particulares de x en Córdoba. En tres simples pasos ponete en contacto con especialistas en eventos y organizá cualquier tipo de celebración, cumpleaños, casamientos, bautismos, comuniones, eventos infantiles, empresariales. Tenemos profesionales que estarán a cargo de cada detalle: sonido, animación, catering, decoración, papelería, mobiliario, mozos, lo que busques para tu fiesta encontralo fácilmente en x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/j5BRzyhS/icono-eventos.png',
     destacado: false,
   },
   {
@@ -653,7 +652,7 @@ export const SERVICES = [
     name: 'Carpas a domicilio',
     description:
       'La fiesta de tu sueños hacela realidad con el servicio de eventos particulares de x en Córdoba. En tres simples pasos ponete en contacto con especialistas en eventos y organizá cualquier tipo de celebración, cumpleaños, casamientos, bautismos, comuniones, eventos infantiles, empresariales. Tenemos profesionales que estarán a cargo de cada detalle: sonido, animación, catering, decoración, papelería, mobiliario, mozos, lo que busques para tu fiesta encontralo fácilmente en x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/j5BRzyhS/icono-eventos.png',
     destacado: false,
   },
   {
@@ -662,7 +661,7 @@ export const SERVICES = [
     name: 'Catering a domicilio',
     description:
       'La fiesta de tu sueños hacela realidad con el servicio de eventos particulares de x en Córdoba. En tres simples pasos ponete en contacto con especialistas en eventos y organizá cualquier tipo de celebración, cumpleaños, casamientos, bautismos, comuniones, eventos infantiles, empresariales. Tenemos profesionales que estarán a cargo de cada detalle: sonido, animación, catering, decoración, papelería, mobiliario, mozos, lo que busques para tu fiesta encontralo fácilmente en x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/j5BRzyhS/icono-eventos.png',
     destacado: false,
   },
   {
@@ -671,7 +670,7 @@ export const SERVICES = [
     name: 'Cocinero a domicilio',
     description:
       'La fiesta de tu sueños hacela realidad con el servicio de eventos particulares de x en Córdoba. En tres simples pasos ponete en contacto con especialistas en eventos y organizá cualquier tipo de celebración, cumpleaños, casamientos, bautismos, comuniones, eventos infantiles, empresariales. Tenemos profesionales que estarán a cargo de cada detalle: sonido, animación, catering, decoración, papelería, mobiliario, mozos, lo que busques para tu fiesta encontralo fácilmente en x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/j5BRzyhS/icono-eventos.png',
     destacado: false,
   },
   {
@@ -680,7 +679,7 @@ export const SERVICES = [
     name: 'Coctelería a domicilio',
     description:
       'La fiesta de tu sueños hacela realidad con el servicio de eventos particulares de x en Córdoba. En tres simples pasos ponete en contacto con especialistas en eventos y organizá cualquier tipo de celebración, cumpleaños, casamientos, bautismos, comuniones, eventos infantiles, empresariales. Tenemos profesionales que estarán a cargo de cada detalle: sonido, animación, catering, decoración, papelería, mobiliario, mozos, lo que busques para tu fiesta encontralo fácilmente en x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/j5BRzyhS/icono-eventos.png',
     destacado: false,
   },
   {
@@ -689,7 +688,7 @@ export const SERVICES = [
     name: 'Fotógrafo a domicilio',
     description:
       'La fiesta de tu sueños hacela realidad con el servicio de eventos particulares de x en Córdoba. En tres simples pasos ponete en contacto con especialistas en eventos y organizá cualquier tipo de celebración, cumpleaños, casamientos, bautismos, comuniones, eventos infantiles, empresariales. Tenemos profesionales que estarán a cargo de cada detalle: sonido, animación, catering, decoración, papelería, mobiliario, mozos, lo que busques para tu fiesta encontralo fácilmente en x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/j5BRzyhS/icono-eventos.png',
     destacado: false,
   },
   {
@@ -698,7 +697,7 @@ export const SERVICES = [
     name: 'Magos a domicilio',
     description:
       'La fiesta de tu sueños hacela realidad con el servicio de eventos particulares de x en Córdoba. En tres simples pasos ponete en contacto con especialistas en eventos y organizá cualquier tipo de celebración, cumpleaños, casamientos, bautismos, comuniones, eventos infantiles, empresariales. Tenemos profesionales que estarán a cargo de cada detalle: sonido, animación, catering, decoración, papelería, mobiliario, mozos, lo que busques para tu fiesta encontralo fácilmente en x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/j5BRzyhS/icono-eventos.png',
     destacado: false,
   },
   {
@@ -707,7 +706,7 @@ export const SERVICES = [
     name: 'Mobiliario a domicilio',
     description:
       'La fiesta de tu sueños hacela realidad con el servicio de eventos particulares de x en Córdoba. En tres simples pasos ponete en contacto con especialistas en eventos y organizá cualquier tipo de celebración, cumpleaños, casamientos, bautismos, comuniones, eventos infantiles, empresariales. Tenemos profesionales que estarán a cargo de cada detalle: sonido, animación, catering, decoración, papelería, mobiliario, mozos, lo que busques para tu fiesta encontralo fácilmente en x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/j5BRzyhS/icono-eventos.png',
     destacado: false,
   },
   {
@@ -716,7 +715,7 @@ export const SERVICES = [
     name: 'Payasos a domicilio',
     description:
       'La fiesta de tu sueños hacela realidad con el servicio de eventos particulares de x en Córdoba. En tres simples pasos ponete en contacto con especialistas en eventos y organizá cualquier tipo de celebración, cumpleaños, casamientos, bautismos, comuniones, eventos infantiles, empresariales. Tenemos profesionales que estarán a cargo de cada detalle: sonido, animación, catering, decoración, papelería, mobiliario, mozos, lo que busques para tu fiesta encontralo fácilmente en x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/j5BRzyhS/icono-eventos.png',
     destacado: false,
   },
   {
@@ -725,7 +724,7 @@ export const SERVICES = [
     name: 'Repostería a domicilio',
     description:
       'La fiesta de tu sueños hacela realidad con el servicio de eventos particulares de x en Córdoba. En tres simples pasos ponete en contacto con especialistas en eventos y organizá cualquier tipo de celebración, cumpleaños, casamientos, bautismos, comuniones, eventos infantiles, empresariales. Tenemos profesionales que estarán a cargo de cada detalle: sonido, animación, catering, decoración, papelería, mobiliario, mozos, lo que busques para tu fiesta encontralo fácilmente en x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/j5BRzyhS/icono-eventos.png',
     destacado: false,
   },
   {
@@ -734,7 +733,7 @@ export const SERVICES = [
     name: 'Sonido a domicilio',
     description:
       'La fiesta de tu sueños hacela realidad con el servicio de eventos particulares de x en Córdoba. En tres simples pasos ponete en contacto con especialistas en eventos y organizá cualquier tipo de celebración, cumpleaños, casamientos, bautismos, comuniones, eventos infantiles, empresariales. Tenemos profesionales que estarán a cargo de cada detalle: sonido, animación, catering, decoración, papelería, mobiliario, mozos, lo que busques para tu fiesta encontralo fácilmente en x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/j5BRzyhS/icono-eventos.png',
     destacado: false,
   },
   {
@@ -743,7 +742,7 @@ export const SERVICES = [
     name: 'Artefactos a gas',
     description:
       '¿Huele a gas? ¡Cerrá la llave de paso! Si necesitás un gasista 24 horas para reparación de calentadores, reparación de termotanques, mantenimiento de calderas u otros servicios de gas en Córdoba, recordá que x es tu solución más profesional. Descubrí gasistas gratis desde tu celular rellenando una solicitud de trabajo. Fácil y rápido.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/T1mfQhkq/icono-gasista.png',
     destacado: false,
   },
   {
@@ -752,7 +751,7 @@ export const SERVICES = [
     name: 'Instalación de calderas',
     description:
       '¿Huele a gas? ¡Cerrá la llave de paso! Si necesitás un gasista 24 horas para reparación de calentadores, reparación de termotanques, mantenimiento de calderas u otros servicios de gas en Córdoba, recordá que x es tu solución más profesional. Descubrí gasistas gratis desde tu celular rellenando una solicitud de trabajo. Fácil y rápido.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/T1mfQhkq/icono-gasista.png',
     destacado: false,
   },
   {
@@ -761,7 +760,7 @@ export const SERVICES = [
     name: 'Reparación de calderas',
     description:
       '¿Huele a gas? ¡Cerrá la llave de paso! Si necesitás un gasista 24 horas para reparación de calentadores, reparación de termotanques, mantenimiento de calderas u otros servicios de gas en Córdoba, recordá que x es tu solución más profesional. Descubrí gasistas gratis desde tu celular rellenando una solicitud de trabajo. Fácil y rápido.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/T1mfQhkq/icono-gasista.png',
     destacado: false,
   },
   {
@@ -770,7 +769,7 @@ export const SERVICES = [
     name: 'Tubos y cañerías',
     description:
       '¿Huele a gas? ¡Cerrá la llave de paso! Si necesitás un gasista 24 horas para reparación de calentadores, reparación de termotanques, mantenimiento de calderas u otros servicios de gas en Córdoba, recordá que x es tu solución más profesional. Descubrí gasistas gratis desde tu celular rellenando una solicitud de trabajo. Fácil y rápido.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/T1mfQhkq/icono-gasista.png',
     destacado: true,
   },
   {
@@ -779,7 +778,7 @@ export const SERVICES = [
     name: 'Herrería artística',
     description:
       'En x disponemos de herreros en Córdoba para realización de rejas, portones, soldaduras, herrería artística y todo tipo de trabajos relacionados con la herrería. Desde la aplicación podés conseguir especialistas del metal cerca tuyo, solo tenés que hacer una solicitud de trabajo explicando detalladamente el servicio de herrería que necesitás. Recordá que con x es fácil encontrar un profesional especializado en los trabajos del hogar.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/66GWB192/icono-herrero.png',
     destacado: false,
   },
   {
@@ -788,7 +787,7 @@ export const SERVICES = [
     name: 'Rejas y portones',
     description:
       'En x disponemos de herreros en Córdoba para realización de rejas, portones, soldaduras, herrería artística y todo tipo de trabajos relacionados con la herrería. Desde la aplicación podés conseguir especialistas del metal cerca tuyo, solo tenés que hacer una solicitud de trabajo explicando detalladamente el servicio de herrería que necesitás. Recordá que con x es fácil encontrar un profesional especializado en los trabajos del hogar.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/66GWB192/icono-herrero.png',
     destacado: true,
   },
   {
@@ -797,7 +796,7 @@ export const SERVICES = [
     name: 'Soldaduras',
     description:
       'En x disponemos de herreros en Córdoba para realización de rejas, portones, soldaduras, herrería artística y todo tipo de trabajos relacionados con la herrería. Desde la aplicación podés conseguir especialistas del metal cerca tuyo, solo tenés que hacer una solicitud de trabajo explicando detalladamente el servicio de herrería que necesitás. Recordá que con x es fácil encontrar un profesional especializado en los trabajos del hogar.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/66GWB192/icono-herrero.png',
     destacado: false,
   },
   {
@@ -806,7 +805,7 @@ export const SERVICES = [
     name: 'Mantenimiento',
     description:
       'Si tenés un jardin en Córdoba estás de suerte. En x tenés cientos de jardineros en Córdoba que prestan su servicio a través de la aplicación. Cuando necesites un jardinero para por ejemplo arreglar tu pasto, hacer tala de árboles o simplemente necesites un experto en diseño de jardines, debés ser concreto en tu solicitud de trabajo, así obtendrás un presupuesto a medida.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/13yscmDw/icono-jardinero.png',
     destacado: true,
   },
   {
@@ -815,7 +814,7 @@ export const SERVICES = [
     name: 'Paisajismo',
     description:
       'Si tenés un jardin en Córdoba estás de suerte. En x tenés cientos de jardineros en Córdoba que prestan su servicio a través de la aplicación. Cuando necesites un jardinero para por ejemplo arreglar tu pasto, hacer tala de árboles o simplemente necesites un experto en diseño de jardines, debés ser concreto en tu solicitud de trabajo, así obtendrás un presupuesto a medida.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/13yscmDw/icono-jardinero.png',
     destacado: false,
   },
   {
@@ -824,7 +823,7 @@ export const SERVICES = [
     name: 'Poda en altura',
     description:
       'Si tenés un jardin en Córdoba estás de suerte. En x tenés cientos de jardineros en Córdoba que prestan su servicio a través de la aplicación. Cuando necesites un jardinero para por ejemplo arreglar tu pasto, hacer tala de árboles o simplemente necesites un experto en diseño de jardines, debés ser concreto en tu solicitud de trabajo, así obtendrás un presupuesto a medida.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/13yscmDw/icono-jardinero.png',
     destacado: true,
   },
   {
@@ -833,7 +832,7 @@ export const SERVICES = [
     name: 'Poda y extracción de árboles',
     description:
       'Si tenés un jardin en Córdoba estás de suerte. En x tenés cientos de jardineros en Córdoba que prestan su servicio a través de la aplicación. Cuando necesites un jardinero para por ejemplo arreglar tu pasto, hacer tala de árboles o simplemente necesites un experto en diseño de jardines, debés ser concreto en tu solicitud de trabajo, así obtendrás un presupuesto a medida.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/13yscmDw/icono-jardinero.png',
     destacado: false,
   },
   {
@@ -842,7 +841,7 @@ export const SERVICES = [
     name: 'Riego',
     description:
       'Si tenés un jardin en Córdoba estás de suerte. En x tenés cientos de jardineros en Córdoba que prestan su servicio a través de la aplicación. Cuando necesites un jardinero para por ejemplo arreglar tu pasto, hacer tala de árboles o simplemente necesites un experto en diseño de jardines, debés ser concreto en tu solicitud de trabajo, así obtendrás un presupuesto a medida.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/13yscmDw/icono-jardinero.png',
     destacado: false,
   },
   {
@@ -851,7 +850,7 @@ export const SERVICES = [
     name: 'Alfombras',
     description:
       '¿Necesitás una empresa de limpieza en Córdoba? Si no tenés tiempo y estás buscando un servicio doméstico por horas para tu hogar, x es tu solución más fácil, rápida y gratuita. Desde la aplicación podés buscar profesionales para servicio de limpieza. Hacé tu solicitud, hablá con los profesionales mediante nuestro chat y seleccioná las mejores empresas de aseo. Desde tu celular encontrarás profesionales de calidad que están cerca tuyo. ¡Hacé tu solicitud, es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/pLkxswB7/icono-limpieza.png',
     destacado: false,
   },
   {
@@ -860,7 +859,7 @@ export const SERVICES = [
     name: 'Cortinas',
     description:
       '¿Necesitás una empresa de limpieza en Córdoba? Si no tenés tiempo y estás buscando un servicio doméstico por horas para tu hogar, x es tu solución más fácil, rápida y gratuita. Desde la aplicación podés buscar profesionales para servicio de limpieza. Hacé tu solicitud, hablá con los profesionales mediante nuestro chat y seleccioná las mejores empresas de aseo. Desde tu celular encontrarás profesionales de calidad que están cerca tuyo. ¡Hacé tu solicitud, es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/pLkxswB7/icono-limpieza.png',
     destacado: false,
   },
   {
@@ -869,7 +868,7 @@ export const SERVICES = [
     name: 'Exterior',
     description:
       '¿Necesitás una empresa de limpieza en Córdoba? Si no tenés tiempo y estás buscando un servicio doméstico por horas para tu hogar, x es tu solución más fácil, rápida y gratuita. Desde la aplicación podés buscar profesionales para servicio de limpieza. Hacé tu solicitud, hablá con los profesionales mediante nuestro chat y seleccioná las mejores empresas de aseo. Desde tu celular encontrarás profesionales de calidad que están cerca tuyo. ¡Hacé tu solicitud, es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/pLkxswB7/icono-limpieza.png',
     destacado: false,
   },
   {
@@ -878,7 +877,7 @@ export const SERVICES = [
     name: 'Limpieza del hogar',
     description:
       '¿Necesitás una empresa de limpieza en Córdoba? Si no tenés tiempo y estás buscando un servicio doméstico por horas para tu hogar, x es tu solución más fácil, rápida y gratuita. Desde la aplicación podés buscar profesionales para servicio de limpieza. Hacé tu solicitud, hablá con los profesionales mediante nuestro chat y seleccioná las mejores empresas de aseo. Desde tu celular encontrarás profesionales de calidad que están cerca tuyo. ¡Hacé tu solicitud, es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/pLkxswB7/icono-limpieza.png',
     destacado: false,
   },
   {
@@ -887,7 +886,7 @@ export const SERVICES = [
     name: 'Limpieza en altura',
     description:
       '¿Necesitás una empresa de limpieza en Córdoba? Si no tenés tiempo y estás buscando un servicio doméstico por horas para tu hogar, x es tu solución más fácil, rápida y gratuita. Desde la aplicación podés buscar profesionales para servicio de limpieza. Hacé tu solicitud, hablá con los profesionales mediante nuestro chat y seleccioná las mejores empresas de aseo. Desde tu celular encontrarás profesionales de calidad que están cerca tuyo. ¡Hacé tu solicitud, es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/pLkxswB7/icono-limpieza.png',
     destacado: false,
   },
   {
@@ -896,7 +895,7 @@ export const SERVICES = [
     name: 'Limpieza en profundidad',
     description:
       '¿Necesitás una empresa de limpieza en Córdoba? Si no tenés tiempo y estás buscando un servicio doméstico por horas para tu hogar, x es tu solución más fácil, rápida y gratuita. Desde la aplicación podés buscar profesionales para servicio de limpieza. Hacé tu solicitud, hablá con los profesionales mediante nuestro chat y seleccioná las mejores empresas de aseo. Desde tu celular encontrarás profesionales de calidad que están cerca tuyo. ¡Hacé tu solicitud, es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/pLkxswB7/icono-limpieza.png',
     destacado: false,
   },
   {
@@ -905,7 +904,7 @@ export const SERVICES = [
     name: 'Muebles',
     description:
       '¿Necesitás una empresa de limpieza en Córdoba? Si no tenés tiempo y estás buscando un servicio doméstico por horas para tu hogar, x es tu solución más fácil, rápida y gratuita. Desde la aplicación podés buscar profesionales para servicio de limpieza. Hacé tu solicitud, hablá con los profesionales mediante nuestro chat y seleccioná las mejores empresas de aseo. Desde tu celular encontrarás profesionales de calidad que están cerca tuyo. ¡Hacé tu solicitud, es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/pLkxswB7/icono-limpieza.png',
     destacado: false,
   },
   {
@@ -914,7 +913,7 @@ export const SERVICES = [
     name: 'Ventanas',
     description:
       '¿Necesitás una empresa de limpieza en Córdoba? Si no tenés tiempo y estás buscando un servicio doméstico por horas para tu hogar, x es tu solución más fácil, rápida y gratuita. Desde la aplicación podés buscar profesionales para servicio de limpieza. Hacé tu solicitud, hablá con los profesionales mediante nuestro chat y seleccioná las mejores empresas de aseo. Desde tu celular encontrarás profesionales de calidad que están cerca tuyo. ¡Hacé tu solicitud, es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/pLkxswB7/icono-limpieza.png',
     destacado: true,
   },
   {
@@ -923,7 +922,7 @@ export const SERVICES = [
     name: 'Alojamiento de mascotas',
     description:
       '¡Tu mascota también quiere x! Buscá y encontrá un cuidador de perros en Córdoba confiable a través de la aplicación x y no dejés tu perro a cualquiera. A través de nuestro servicio de valoraciones y opiniones podés seleccionar a la persona que cuidará a tu mascota basándote en las opiniones de otros usuarios. Además de un paseador de perros también hay algunos profesionales que se dedican a cuidar gatos u ofrecen un servicio de guardería de mascotas. Seleccioná la categoría de mascotas, describí lo que necesitás exactamente, seleccioná a las personas más confiables y chateá con ellas. ¡Es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/TPwxFt7P/icono-mascotas.png',
     destacado: false,
   },
   {
@@ -932,7 +931,7 @@ export const SERVICES = [
     name: 'Guardería de día',
     description:
       '¡Tu mascota también quiere x! Buscá y encontrá un cuidador de perros en Córdoba confiable a través de la aplicación x y no dejés tu perro a cualquiera. A través de nuestro servicio de valoraciones y opiniones podés seleccionar a la persona que cuidará a tu mascota basándote en las opiniones de otros usuarios. Además de un paseador de perros también hay algunos profesionales que se dedican a cuidar gatos u ofrecen un servicio de guardería de mascotas. Seleccioná la categoría de mascotas, describí lo que necesitás exactamente, seleccioná a las personas más confiables y chateá con ellas. ¡Es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/TPwxFt7P/icono-mascotas.png',
     destacado: false,
   },
   {
@@ -941,7 +940,7 @@ export const SERVICES = [
     name: 'Paseador de perros',
     description:
       '¡Tu mascota también quiere x! Buscá y encontrá un cuidador de perros en Córdoba confiable a través de la aplicación x y no dejés tu perro a cualquiera. A través de nuestro servicio de valoraciones y opiniones podés seleccionar a la persona que cuidará a tu mascota basándote en las opiniones de otros usuarios. Además de un paseador de perros también hay algunos profesionales que se dedican a cuidar gatos u ofrecen un servicio de guardería de mascotas. Seleccioná la categoría de mascotas, describí lo que necesitás exactamente, seleccioná a las personas más confiables y chateá con ellas. ¡Es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/TPwxFt7P/icono-mascotas.png',
     destacado: true,
   },
   {
@@ -950,7 +949,7 @@ export const SERVICES = [
     name: 'Fletes',
     description:
       '¿Te mudás? ¡Hacelo fácil con x! Encontrá cientos de empresas de mudanza o reparto en un par de clics desde tu celular. En x podés encontrar cientos de profesionales para realizar fletes o transportes en Córdoba capital muy economicos. Hacé tu solicitud especificando qué necesitás y los profesionales de mudanzas se pondrán en contacto con vos. ¡Elegí al mejor para vos!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/PqRHj19Q/icono-mudanzas.png',
     destacado: true,
   },
   {
@@ -959,7 +958,7 @@ export const SERVICES = [
     name: 'Mini fletes',
     description:
       '¿Te mudás? ¡Hacelo fácil con x! Encontrá cientos de empresas de mudanza o reparto en un par de clics desde tu celular. En x podés encontrar cientos de profesionales para realizar fletes o transportes en Córdoba capital muy economicos. Hacé tu solicitud especificando qué necesitás y los profesionales de mudanzas se pondrán en contacto con vos. ¡Elegí al mejor para vos!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/PqRHj19Q/icono-mudanzas.png',
     destacado: false,
   },
   {
@@ -968,7 +967,7 @@ export const SERVICES = [
     name: 'Mudanzas internacionales',
     description:
       '¿Te mudás? ¡Hacelo fácil con x! Encontrá cientos de empresas de mudanza o reparto en un par de clics desde tu celular. En x podés encontrar cientos de profesionales para realizar fletes o transportes en Córdoba capital muy economicos. Hacé tu solicitud especificando qué necesitás y los profesionales de mudanzas se pondrán en contacto con vos. ¡Elegí al mejor para vos!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/PqRHj19Q/icono-mudanzas.png',
     destacado: false,
   },
   {
@@ -977,7 +976,7 @@ export const SERVICES = [
     name: 'Mudanzas nacionales',
     description:
       '¿Te mudás? ¡Hacelo fácil con x! Encontrá cientos de empresas de mudanza o reparto en un par de clics desde tu celular. En x podés encontrar cientos de profesionales para realizar fletes o transportes en Córdoba capital muy economicos. Hacé tu solicitud especificando qué necesitás y los profesionales de mudanzas se pondrán en contacto con vos. ¡Elegí al mejor para vos!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/PqRHj19Q/icono-mudanzas.png',
     destacado: false,
   },
   {
@@ -986,7 +985,7 @@ export const SERVICES = [
     name: 'Construcción',
     description:
       'Hacer un buen mantenimiento de piletas es fundamental para poder disfrutar de tu pileta cuando llega el buen tiempo. Con tu app de x podés encontrar profesionales para mantenimiento o construcción de piletas en Córdoba con apenas dos clicks dentro de tu celular. Conseguir profesionales confiables para tus trabajos en piletas plásticas o de hormigón es sencillo con una aplicación como x. ¡Probá es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/Znrzp2Rw/icono-piscinas.png',
     destacado: false,
   },
   {
@@ -995,7 +994,7 @@ export const SERVICES = [
     name: 'Limpieza',
     description:
       'Hacer un buen mantenimiento de piletas es fundamental para poder disfrutar de tu pileta cuando llega el buen tiempo. Con tu app de x podés encontrar profesionales para mantenimiento o construcción de piletas en Córdoba con apenas dos clicks dentro de tu celular. Conseguir profesionales confiables para tus trabajos en piletas plásticas o de hormigón es sencillo con una aplicación como x. ¡Probá es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/Znrzp2Rw/icono-piscinas.png',
     destacado: true,
   },
   {
@@ -1004,7 +1003,7 @@ export const SERVICES = [
     name: 'Mantenimiento',
     description:
       'Hacer un buen mantenimiento de piletas es fundamental para poder disfrutar de tu pileta cuando llega el buen tiempo. Con tu app de x podés encontrar profesionales para mantenimiento o construcción de piletas en Córdoba con apenas dos clicks dentro de tu celular. Conseguir profesionales confiables para tus trabajos en piletas plásticas o de hormigón es sencillo con una aplicación como x. ¡Probá es gratis!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/Znrzp2Rw/icono-piscinas.png',
     destacado: true,
   },
   {
@@ -1013,7 +1012,7 @@ export const SERVICES = [
     name: 'Humedad',
     description:
       '¿Estás buscando un pintor en Córdoba? Aprovechá y dale un nuevo color a tu hogar con los expertos en pintura interior que encontrarás en la aplicación de x. Si buscás pintar paredes o empresas de pintura en Córdoba tenés la mejor solución en tu celular. Contactá fácilmente con pintores cerca tuyo y seleccioná los mejor valorados.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/gJLWknPF/icono-pintor.png',
     destacado: true,
   },
   {
@@ -1022,7 +1021,7 @@ export const SERVICES = [
     name: 'Revestimientos',
     description:
       '¿Estás buscando un pintor en Córdoba? Aprovechá y dale un nuevo color a tu hogar con los expertos en pintura interior que encontrarás en la aplicación de x. Si buscás pintar paredes o empresas de pintura en Córdoba tenés la mejor solución en tu celular. Contactá fácilmente con pintores cerca tuyo y seleccioná los mejor valorados.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/gJLWknPF/icono-pintor.png',
     destacado: true,
   },
   {
@@ -1031,7 +1030,7 @@ export const SERVICES = [
     name: 'Bombas de agua',
     description:
       'Encontrá plomeros matriculados para arreglo de goteras, destapa cañerías y mucho más. Encontrar un buen servicio de plomería en Córdoba no es tarea fácil, por eso con x podés buscar plomeros 24 horas desde tu celular. Conseguir plomeros de calidad nunca fue tan fácil, rápido y a coste cero. ¡Aprovechá las ventajas de x y hacé tu primera solicitud!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/XNFbRG89/icono-plomero.png',
     destacado: true,
   },
   {
@@ -1040,7 +1039,7 @@ export const SERVICES = [
     name: 'Calderas',
     description:
       'Encontrá plomeros matriculados para arreglo de goteras, destapa cañerías y mucho más. Encontrar un buen servicio de plomería en Córdoba no es tarea fácil, por eso con x podés buscar plomeros 24 horas desde tu celular. Conseguir plomeros de calidad nunca fue tan fácil, rápido y a coste cero. ¡Aprovechá las ventajas de x y hacé tu primera solicitud!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/XNFbRG89/icono-plomero.png',
     destacado: false,
   },
   {
@@ -1049,7 +1048,7 @@ export const SERVICES = [
     name: 'Cañerias',
     description:
       'Encontrá plomeros matriculados para arreglo de goteras, destapa cañerías y mucho más. Encontrar un buen servicio de plomería en Córdoba no es tarea fácil, por eso con x podés buscar plomeros 24 horas desde tu celular. Conseguir plomeros de calidad nunca fue tan fácil, rápido y a coste cero. ¡Aprovechá las ventajas de x y hacé tu primera solicitud!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/XNFbRG89/icono-plomero.png',
     destacado: false,
   },
   {
@@ -1058,7 +1057,7 @@ export const SERVICES = [
     name: 'Filtraciones',
     description:
       'Encontrá plomeros matriculados para arreglo de goteras, destapa cañerías y mucho más. Encontrar un buen servicio de plomería en Córdoba no es tarea fácil, por eso con x podés buscar plomeros 24 horas desde tu celular. Conseguir plomeros de calidad nunca fue tan fácil, rápido y a coste cero. ¡Aprovechá las ventajas de x y hacé tu primera solicitud!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/XNFbRG89/icono-plomero.png',
     destacado: false,
   },
   {
@@ -1067,7 +1066,7 @@ export const SERVICES = [
     name: 'Grifería',
     description:
       'Encontrá plomeros matriculados para arreglo de goteras, destapa cañerías y mucho más. Encontrar un buen servicio de plomería en Córdoba no es tarea fácil, por eso con x podés buscar plomeros 24 horas desde tu celular. Conseguir plomeros de calidad nunca fue tan fácil, rápido y a coste cero. ¡Aprovechá las ventajas de x y hacé tu primera solicitud!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/XNFbRG89/icono-plomero.png',
     destacado: false,
   },
   {
@@ -1076,7 +1075,7 @@ export const SERVICES = [
     name: 'Pozos sépticos',
     description:
       'Encontrá plomeros matriculados para arreglo de goteras, destapa cañerías y mucho más. Encontrar un buen servicio de plomería en Córdoba no es tarea fácil, por eso con x podés buscar plomeros 24 horas desde tu celular. Conseguir plomeros de calidad nunca fue tan fácil, rápido y a coste cero. ¡Aprovechá las ventajas de x y hacé tu primera solicitud!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/XNFbRG89/icono-plomero.png',
     destacado: false,
   },
   {
@@ -1085,7 +1084,7 @@ export const SERVICES = [
     name: 'Sanitarios',
     description:
       'Encontrá plomeros matriculados para arreglo de goteras, destapa cañerías y mucho más. Encontrar un buen servicio de plomería en Córdoba no es tarea fácil, por eso con x podés buscar plomeros 24 horas desde tu celular. Conseguir plomeros de calidad nunca fue tan fácil, rápido y a coste cero. ¡Aprovechá las ventajas de x y hacé tu primera solicitud!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/XNFbRG89/icono-plomero.png',
     destacado: false,
   },
   {
@@ -1094,7 +1093,7 @@ export const SERVICES = [
     name: 'Tanques de agua',
     description:
       'Encontrá plomeros matriculados para arreglo de goteras, destapa cañerías y mucho más. Encontrar un buen servicio de plomería en Córdoba no es tarea fácil, por eso con x podés buscar plomeros 24 horas desde tu celular. Conseguir plomeros de calidad nunca fue tan fácil, rápido y a coste cero. ¡Aprovechá las ventajas de x y hacé tu primera solicitud!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/XNFbRG89/icono-plomero.png',
     destacado: true,
   },
   {
@@ -1103,7 +1102,7 @@ export const SERVICES = [
     name: 'Reforma de cocinas',
     description:
       'Descubrí las mejores empresas de reformas en Córdoba para remodelaciones y reformas integrales o parciales, reformas de baños, de cocinas o reformas en general para tu casa. Simplemente, cotizá gratis desde la APP o la web y recibí de manera rápida presupuestos de varios profesionales. Así podrás comparar varios precios, materiales y profesionales para contratar el que más se ajuste a tus necesidades. Elegí el diseño con el que soñás y poné en marcha la reforma que buscás para tu hogar. ¡Con x es más fácil!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DyTTnvjH/icono-reformas.png',
     destacado: false,
   },
   {
@@ -1112,7 +1111,7 @@ export const SERVICES = [
     name: 'Reformas de baños',
     description:
       'Descubrí las mejores empresas de reformas en Córdoba para remodelaciones y reformas integrales o parciales, reformas de baños, de cocinas o reformas en general para tu casa. Simplemente, cotizá gratis desde la APP o la web y recibí de manera rápida presupuestos de varios profesionales. Así podrás comparar varios precios, materiales y profesionales para contratar el que más se ajuste a tus necesidades. Elegí el diseño con el que soñás y poné en marcha la reforma que buscás para tu hogar. ¡Con x es más fácil!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DyTTnvjH/icono-reformas.png',
     destacado: false,
   },
   {
@@ -1121,7 +1120,7 @@ export const SERVICES = [
     name: 'Reformas en general',
     description:
       'Descubrí las mejores empresas de reformas en Córdoba para remodelaciones y reformas integrales o parciales, reformas de baños, de cocinas o reformas en general para tu casa. Simplemente, cotizá gratis desde la APP o la web y recibí de manera rápida presupuestos de varios profesionales. Así podrás comparar varios precios, materiales y profesionales para contratar el que más se ajuste a tus necesidades. Elegí el diseño con el que soñás y poné en marcha la reforma que buscás para tu hogar. ¡Con x es más fácil!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DyTTnvjH/icono-reformas.png',
     destacado: false,
   },
   {
@@ -1130,7 +1129,7 @@ export const SERVICES = [
     name: 'Reformas integrales',
     description:
       'Descubrí las mejores empresas de reformas en Córdoba para remodelaciones y reformas integrales o parciales, reformas de baños, de cocinas o reformas en general para tu casa. Simplemente, cotizá gratis desde la APP o la web y recibí de manera rápida presupuestos de varios profesionales. Así podrás comparar varios precios, materiales y profesionales para contratar el que más se ajuste a tus necesidades. Elegí el diseño con el que soñás y poné en marcha la reforma que buscás para tu hogar. ¡Con x es más fácil!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DyTTnvjH/icono-reformas.png',
     destacado: false,
   },
   {
@@ -1139,7 +1138,7 @@ export const SERVICES = [
     name: 'Reformas parciales',
     description:
       'Descubrí las mejores empresas de reformas en Córdoba para remodelaciones y reformas integrales o parciales, reformas de baños, de cocinas o reformas en general para tu casa. Simplemente, cotizá gratis desde la APP o la web y recibí de manera rápida presupuestos de varios profesionales. Así podrás comparar varios precios, materiales y profesionales para contratar el que más se ajuste a tus necesidades. Elegí el diseño con el que soñás y poné en marcha la reforma que buscás para tu hogar. ¡Con x es más fácil!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/DyTTnvjH/icono-reformas.png',
     destacado: false,
   },
   {
@@ -1148,7 +1147,7 @@ export const SERVICES = [
     name: 'Alarmas',
     description:
       'En x tenemos empresas de seguridad en Córdoba y profesionales que se dedican a la seguridad privada en toda la ciudad. Si estabas buscando un profesional capaz de instalar una alarma o una cámara de vigilancia, recordá que te ofrecemos desde tu celular una lista de empresas o profesionales de seguridad que van a ayudarte a tener una casa más segura. Hacé tu solicitud indicando exactamente lo que esperás de nuestros profesionales y quedate con los mejores expertos en servicios de seguridad. ¡Nunca había sido tan fácil encontrar profesionales confiables!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/VLWcNx26/icono-seguridad.png',
     destacado: true,
   },
   {
@@ -1157,7 +1156,7 @@ export const SERVICES = [
     name: 'Cercos eléctricos',
     description:
       'En x tenemos empresas de seguridad en Córdoba y profesionales que se dedican a la seguridad privada en toda la ciudad. Si estabas buscando un profesional capaz de instalar una alarma o una cámara de vigilancia, recordá que te ofrecemos desde tu celular una lista de empresas o profesionales de seguridad que van a ayudarte a tener una casa más segura. Hacé tu solicitud indicando exactamente lo que esperás de nuestros profesionales y quedate con los mejores expertos en servicios de seguridad. ¡Nunca había sido tan fácil encontrar profesionales confiables!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/VLWcNx26/icono-seguridad.png',
     destacado: false,
   },
   {
@@ -1166,7 +1165,7 @@ export const SERVICES = [
     name: 'Cámaras de vigilancia',
     description:
       'En x tenemos empresas de seguridad en Córdoba y profesionales que se dedican a la seguridad privada en toda la ciudad. Si estabas buscando un profesional capaz de instalar una alarma o una cámara de vigilancia, recordá que te ofrecemos desde tu celular una lista de empresas o profesionales de seguridad que van a ayudarte a tener una casa más segura. Hacé tu solicitud indicando exactamente lo que esperás de nuestros profesionales y quedate con los mejores expertos en servicios de seguridad. ¡Nunca había sido tan fácil encontrar profesionales confiables!',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/VLWcNx26/icono-seguridad.png',
     destacado: false,
   },
   {
@@ -1175,7 +1174,7 @@ export const SERVICES = [
     name: 'Antenas',
     description:
       '¡Dale una segunda oportunidad a tus electrodomésticos! Encontrá miles de profesionales para servicio técnico de reparación en Córdoba (Samsung, Whirlpool, Electrolux, LG, GE Appliances, Drean, etc). En x podés conseguir profesionales para mantenimiento de aire acondicionado, arreglo de heladeras o lavarropas, etc. Si buscás un técnico informático especilizado en reparación de celulares o reparación de cámaras digitales, indicalo en tu solicitud de trabajo. Conseguir profesionales es una tarea fácil, rápida y gratuita con la aplicación de x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/nhdb4vFf/icono-tecnico.png',
     destacado: true,
   },
   {
@@ -1184,7 +1183,7 @@ export const SERVICES = [
     name: 'Computadoras',
     description:
       '¡Dale una segunda oportunidad a tus electrodomésticos! Encontrá miles de profesionales para servicio técnico de reparación en Córdoba (Samsung, Whirlpool, Electrolux, LG, GE Appliances, Drean, etc). En x podés conseguir profesionales para mantenimiento de aire acondicionado, arreglo de heladeras o lavarropas, etc. Si buscás un técnico informático especilizado en reparación de celulares o reparación de cámaras digitales, indicalo en tu solicitud de trabajo. Conseguir profesionales es una tarea fácil, rápida y gratuita con la aplicación de x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/nhdb4vFf/icono-tecnico.png',
     destacado: true,
   },
   {
@@ -1193,7 +1192,7 @@ export const SERVICES = [
     name: 'Cámaras',
     description:
       '¡Dale una segunda oportunidad a tus electrodomésticos! Encontrá miles de profesionales para servicio técnico de reparación en Córdoba (Samsung, Whirlpool, Electrolux, LG, GE Appliances, Drean, etc). En x podés conseguir profesionales para mantenimiento de aire acondicionado, arreglo de heladeras o lavarropas, etc. Si buscás un técnico informático especilizado en reparación de celulares o reparación de cámaras digitales, indicalo en tu solicitud de trabajo. Conseguir profesionales es una tarea fácil, rápida y gratuita con la aplicación de x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/nhdb4vFf/icono-tecnico.png',
     destacado: false,
   },
   {
@@ -1202,7 +1201,7 @@ export const SERVICES = [
     name: 'Electrodomésticos',
     description:
       '¡Dale una segunda oportunidad a tus electrodomésticos! Encontrá miles de profesionales para servicio técnico de reparación en Córdoba (Samsung, Whirlpool, Electrolux, LG, GE Appliances, Drean, etc). En x podés conseguir profesionales para mantenimiento de aire acondicionado, arreglo de heladeras o lavarropas, etc. Si buscás un técnico informático especilizado en reparación de celulares o reparación de cámaras digitales, indicalo en tu solicitud de trabajo. Conseguir profesionales es una tarea fácil, rápida y gratuita con la aplicación de x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/nhdb4vFf/icono-tecnico.png',
     destacado: true,
   },
   {
@@ -1211,7 +1210,7 @@ export const SERVICES = [
     name: 'Impresoras',
     description:
       '¡Dale una segunda oportunidad a tus electrodomésticos! Encontrá miles de profesionales para servicio técnico de reparación en Córdoba (Samsung, Whirlpool, Electrolux, LG, GE Appliances, Drean, etc). En x podés conseguir profesionales para mantenimiento de aire acondicionado, arreglo de heladeras o lavarropas, etc. Si buscás un técnico informático especilizado en reparación de celulares o reparación de cámaras digitales, indicalo en tu solicitud de trabajo. Conseguir profesionales es una tarea fácil, rápida y gratuita con la aplicación de x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/nhdb4vFf/icono-tecnico.png',
     destacado: false,
   },
   {
@@ -1220,7 +1219,7 @@ export const SERVICES = [
     name: 'Refrigeración',
     description:
       '¡Dale una segunda oportunidad a tus electrodomésticos! Encontrá miles de profesionales para servicio técnico de reparación en Córdoba (Samsung, Whirlpool, Electrolux, LG, GE Appliances, Drean, etc). En x podés conseguir profesionales para mantenimiento de aire acondicionado, arreglo de heladeras o lavarropas, etc. Si buscás un técnico informático especilizado en reparación de celulares o reparación de cámaras digitales, indicalo en tu solicitud de trabajo. Conseguir profesionales es una tarea fácil, rápida y gratuita con la aplicación de x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/nhdb4vFf/icono-tecnico.png',
     destacado: true,
   },
   {
@@ -1229,7 +1228,7 @@ export const SERVICES = [
     name: 'Tablets y celulares',
     description:
       '¡Dale una segunda oportunidad a tus electrodomésticos! Encontrá miles de profesionales para servicio técnico de reparación en Córdoba (Samsung, Whirlpool, Electrolux, LG, GE Appliances, Drean, etc). En x podés conseguir profesionales para mantenimiento de aire acondicionado, arreglo de heladeras o lavarropas, etc. Si buscás un técnico informático especilizado en reparación de celulares o reparación de cámaras digitales, indicalo en tu solicitud de trabajo. Conseguir profesionales es una tarea fácil, rápida y gratuita con la aplicación de x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/nhdb4vFf/icono-tecnico.png',
     destacado: true,
   },
   {
@@ -1238,7 +1237,7 @@ export const SERVICES = [
     name: 'Televisores',
     description:
       '¡Dale una segunda oportunidad a tus electrodomésticos! Encontrá miles de profesionales para servicio técnico de reparación en Córdoba (Samsung, Whirlpool, Electrolux, LG, GE Appliances, Drean, etc). En x podés conseguir profesionales para mantenimiento de aire acondicionado, arreglo de heladeras o lavarropas, etc. Si buscás un técnico informático especilizado en reparación de celulares o reparación de cámaras digitales, indicalo en tu solicitud de trabajo. Conseguir profesionales es una tarea fácil, rápida y gratuita con la aplicación de x.',
-    image: 'https://placekitten.com/900/700',
+    image: 'https://i.postimg.cc/nhdb4vFf/icono-tecnico.png',
     destacado: true,
   },
 ];

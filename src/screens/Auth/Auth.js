@@ -59,7 +59,7 @@ const Auth = () => {
 
         <TouchableOpacity onPress={handleConfirm}>
           <Text style={styles.confirmButton}>
-            {isSignUp ? 'Registrase' : 'Ingresar'}
+            {isSignUp ? 'Registrate' : 'Ingresar'}
           </Text>
         </TouchableOpacity>
 
@@ -87,6 +87,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: colors.white,
   },
   title: {
     fontSize: 24,

@@ -36,7 +36,7 @@ const Card = ({ navigation, item }) => {
 
               <TouchableOpacity onPress={() => handleClose()}>
                 <Image
-                  source={require('../assets/images/iconClose.png')}
+                  source={require('../../../assets/img/icon-close.png')}
                   style={styles.iconoClose}
                 />
               </TouchableOpacity>
@@ -56,7 +56,7 @@ const Card = ({ navigation, item }) => {
 
                 <View>
                   <Image
-                    source={require('../assets/images/cartWhite.png')}
+                    source={require('../assets/images/cart.png')}
                     style={styles.iconosCart}
                   />
                 </View>

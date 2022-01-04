@@ -8,10 +8,7 @@ const CardService = ({ item, onSelected }) => {
     <TouchableOpacity onPress={() => onSelected(item)}>
       <View style={styles.card}>
         <View style={styles.cardImage}>
-          <Image
-            source={{ uri: 'https://placekitten.com/900/700' }}
-            style={styles.image}
-          />
+          <Image source={{ uri: item.image }} style={styles.image} />
         </View>
 
         <View>
