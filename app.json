@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "app",
-    "slug": "app",
+    "name": "handyUp",
+    "slug": "handyUp",
     "version": "1.0.0",
     "platforms": ["ios", "android"],
     "orientation": "portrait",
@@ -26,12 +26,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#f27524"
-      }
-    },
-    "permissions": ["ACCESS_FINE_LOCATION", "WRITE_EXTERNAL_STORAGE"],
-    "config": {
-      "googleMaps": {
-        "apiKey": "AIzaSyCRNV69ozsDa8_2VxrpA2bBH1wdxTJLueo"
+      },
+      "permissions": ["ACCESS_FINE_LOCATION", "WRITE_EXTERNAL_STORAGE"],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCRNV69ozsDa8_2VxrpA2bBH1wdxTJLueo"
+        }
       }
     },
     "web": {
