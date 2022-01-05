@@ -45,8 +45,8 @@ export default function Professionals({ navigation }) {
             <Image source={{ uri: serviceID.image }} style={styles.image} />
           </View>
 
-          <View style={styles.containerAgrgarCartPrecio}>
-            <View style={styles.agregarCartContainer}>
+          <View style={styles.containerAddCart}>
+            <View style={styles.addCart}>
               <TouchableOpacity onPress={handlerAddItemCart}>
                 <Text style={styles.textButton}>AGREGAR AL CARRITO</Text>
               </TouchableOpacity>
@@ -64,7 +64,7 @@ export default function Professionals({ navigation }) {
             </View>
           </View>
 
-          <Text style={styles.textDescripcionTitulo}>
+          <Text style={styles.textDescripcionTitle}>
             Descripción del Producto:
           </Text>
 
@@ -81,18 +81,16 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     width: '100%',
-    backgroundColor: colors.primary,
-    // alignItems: 'center',
-    // justifyContent: 'center',
+    backgroundColor: colors.white,
   },
   info: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 20,
+    margin: 20,
   },
   cardContainer: {
     marginTop: 10,
-    height: '95%',
+    height: '80%',
   },
   encabezadoCard: {
     flexDirection: 'row',
@@ -117,40 +115,41 @@ const styles = StyleSheet.create({
   },
   image: {
     width: '100%',
-    height: 180,
+    height: 150,
     borderRadius: 15,
   },
-  containerAgrgarCartPrecio: {
-    marginTop: 30,
+  containerAddCart: {
+    marginTop: 50,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
   },
-  agregarCartContainer: {
+  addCart: {
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    width: 217,
+    width: 215,
     height: 36,
     backgroundColor: colors.primary,
     borderRadius: 5,
   },
   textButton: {
-    color: colors.grayMedium,
+    color: colors.white,
     padding: 10,
     fontFamily: 'Roboto-Medium',
     fontWeight: 'bold',
     fontSize: 14,
   },
   iconosCart: {
-    height: 18,
-    width: 18,
+    height: 20,
+    width: 20,
   },
   precio: {
     fontFamily: 'Roboto-Medium',
     fontSize: 25,
+    paddingLeft: 10,
   },
-  textDescripcionTitulo: {
+  textDescripcionTitle: {
     marginTop: 30,
     fontFamily: 'Roboto-Medium',
     fontSize: 16,
