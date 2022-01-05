@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f27524"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,15 +17,15 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.coderhouse.app",
+      "bundleIdentifier": "com.coderhouse.handyUp",
       "buildNumber": "1.0.0"
     },
     "android": {
-      "package": "com.coderhouse.app",
+      "package": "com.coderhouse.handyUp",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#f27524"
       }
     },
     "permissions": ["ACCESS_FINE_LOCATION", "WRITE_EXTERNAL_STORAGE"],

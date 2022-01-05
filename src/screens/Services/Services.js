@@ -26,11 +26,11 @@ export default function Services({ navigation }) {
 
   const item = useSelector((state) => state.categories.selected);
   const services = useSelector((state) => state.services.filteredServices);
-  const service = useSelector((state) => state.services.services);
+  const allServices = useSelector((state) => state.services.services);
 
   console.log(item.name);
   console.log(services.name);
-  console.log(service.name);
+  console.log(allServices.name);
 
   useEffect(() => {
     setTimeout(() => dispatch(filterService(item)), 1000);
@@ -78,7 +78,7 @@ export default function Services({ navigation }) {
                       renderItem={renderItemService}
                     />
                   ) : (
-                    <ActivityIndicator color={colors.accent} size='large' />
+                    <ActivityIndicator color={colors.secondary} size='large' />
                   )}
                 </View>
               </View>
@@ -104,17 +104,17 @@ export default function Services({ navigation }) {
           <Text style={styles.textDestacado}>Servicios destacados</Text>
 
           <View style={styles.cardProductosDestacados}>
-            {services.map((service, i) => {
+            {allServices.map((service, i) => {
               if (service.destacado === true) {
                 return (
                   <TouchableOpacity
                     style={styles.imageProductosDestacadosContainer}
-                    onPress={() => handleSelected(service)}
+                    onPress={() => handleSelected(allServices)}
                     key={i}
                   >
                     <View>
                       <Image
-                        source={{ uri: service.image }}
+                        source={{ uri: allServices.image }}
                         style={styles.imageDestacados}
                       />
                     </View>
@@ -143,13 +143,12 @@ export default function Services({ navigation }) {
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    width: '100%',
     backgroundColor: colors.white,
   },
   containerCard: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
+    // flexDirection: 'row',
+    // justifyContent: 'space-between',
+    // alignItems: 'center',
     backgroundColor: 'red',
   },
   image: {
@@ -165,9 +164,9 @@ const styles = StyleSheet.create({
   textName: {
     fontFamily: 'Roboto-Medium',
     color: colors.primary,
-    fontSize: 20,
-    width: 200,
-    paddingBottom: 10,
+    // fontSize: 20,
+    // width: 200,
+    // paddingBottom: 10,
   },
   subTitle: {
     fontSize: 16,
@@ -176,22 +175,21 @@ const styles = StyleSheet.create({
     height: 20,
     width: 20,
   },
-
-  imageDestacados: {
-    width: 20,
-    height: 20,
-  },
+  // imageDestacados: {
+  //   width: 20,
+  //   height: 20,
+  // },
   textDescripcionTienda: {
     fontFamily: 'Roboto-Light',
     fontSize: 14,
   },
   descripcion: {
-    marginVertical: 20,
-    backgroundColor: colors.accent,
+    // marginVertical: 20,
+    backgroundColor: colors.blue,
   },
   textDestacado: {
-    paddingBottom: 5,
-    marginBottom: 15,
+    // paddingBottom: 5,
+    // marginBottom: 15,
     borderBottomWidth: 0.5,
     borderColor: colors.primary,
     color: colors.black,
@@ -204,8 +202,8 @@ const styles = StyleSheet.create({
     backgroundColor: 'blue',
   },
   textServices: {
-    paddingBottom: 5,
-    marginBottom: 15,
+    // paddingBottom: 5,
+    // marginBottom: 15,
     borderBottomWidth: 0.5,
     borderColor: colors.primary,
     color: 'black',

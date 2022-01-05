@@ -23,7 +23,7 @@ export default function Professionals({ navigation }) {
 
   const handlerAddItemCart = () => {
     dispatch(addItem(service)); /* serviceID */
-    Alert.alert('¡ITEM AGREGADO!', ' ', [{ text: 'Ok' }]);
+    Alert.alert('SERVICIO AGREGADO!', ' ', [{ text: 'Ok' }]);
   };
 
   return (
