@@ -14,7 +14,7 @@ export const removeItem = (itemID) => ({
   itemID,
 });
 
-export const confirmCart = (payload) => {
+export const confirmCart = (payload, userId) => {
   return async (dispatch) => {
     try {
       dispatch({
@@ -27,7 +27,8 @@ export const confirmCart = (payload) => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           date: Date.now(),
-          items: payload,
+          userId,
+          items: { ...payload },
         }),
       });
 
@@ -36,11 +37,14 @@ export const confirmCart = (payload) => {
 
       dispatch({
         type: CONFIRM_CART,
-        status: 'completed',
-        orderID: result.name,
+        status: 'success',
       });
     } catch (error) {
       console.log(error.message);
+      dispatch({
+        type: CONFIRM_CART,
+        status: 'error',
+      });
     }
   };
 };

@@ -1,4 +1,6 @@
 import {
+  ActivityIndicator,
+  FlatList,
   Image,
   ScrollView,
   StyleSheet,
@@ -14,11 +16,14 @@ import {
 import { useDispatch, useSelector } from 'react-redux';
 
 import CardContainer from '../../components/CardContainer/CardContainer';
+import CardProfessional from '../../components/CardProfessional/CardProfessional';
 import SocialMedia from '../../components/SocialMedia/SocialMedia';
 import colors from '../../constants/colors';
 
 export default function Services({ navigation }) {
   const dispatch = useDispatch();
+  const handleClose = () => navigation.goBack();
+
   const item = useSelector((state) => state.categories.selected);
   const services = useSelector((state) => state.services.filteredServices);
   const service = useSelector((state) => state.services.services);
@@ -28,23 +33,29 @@ export default function Services({ navigation }) {
   console.log(service.name);
 
   useEffect(() => {
-    dispatch(filterService(item.id));
-  }, []);
+    setTimeout(() => dispatch(filterService(item)), 1000);
 
-  const handleSelected = (service) => {
-    dispatch(selectService(service.id));
+    return () => {
+      dispatch(filterService());
+    };
+  }, [item]);
+
+  const handleSelected = (item) => {
+    dispatch(selectService(item.id));
     navigation.navigate('professionals', {
-      name: service.name,
+      name: item.name,
     });
   };
 
-  const handleClose = () => navigation.goBack();
+  const renderItemService = ({ item }) => (
+    <CardProfessional item={item} onSelected={handleSelected} />
+  );
 
   return (
     <View style={styles.screen}>
       <ScrollView>
         <CardContainer>
-          <View style={styles.containerSuperiorCard}>
+          <View style={styles.containerCard}>
             <View>
               <Image source={{ uri: item.image }} style={styles.image} />
             </View>
@@ -58,6 +69,18 @@ export default function Services({ navigation }) {
                 <Text style={styles.subTitle}>
                   Selecciona el servicio de {item.name} que necesitas
                 </Text>
+
+                <View style={styles.container}>
+                  {services.length ? (
+                    <FlatList
+                      data={services}
+                      keyExtractor={(item) => item.id}
+                      renderItem={renderItemService}
+                    />
+                  ) : (
+                    <ActivityIndicator color={colors.accent} size='large' />
+                  )}
+                </View>
               </View>
             </View>
 
@@ -78,21 +101,21 @@ export default function Services({ navigation }) {
 
         {/* SERVICIOS DESTACADOS */}
         <CardContainer>
-          <Text style={styles.textDestacado}>Productos destacados</Text>
+          <Text style={styles.textDestacado}>Servicios destacados</Text>
 
           <View style={styles.cardProductosDestacados}>
-            {services.map((service, index) => {
+            {services.map((service, i) => {
               if (service.destacado === true) {
                 return (
                   <TouchableOpacity
                     style={styles.imageProductosDestacadosContainer}
                     onPress={() => handleSelected(service)}
-                    key={index}
+                    key={i}
                   >
                     <View>
                       <Image
                         source={{ uri: service.image }}
-                        style={styles.imageProductosDestacados}
+                        style={styles.imageDestacados}
                       />
                     </View>
                   </TouchableOpacity>
@@ -121,9 +144,9 @@ const styles = StyleSheet.create({
   screen: {
     flex: 1,
     width: '100%',
-    backgroundColor: 'white',
+    backgroundColor: colors.white,
   },
-  containerSuperiorCard: {
+  containerCard: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
@@ -152,6 +175,11 @@ const styles = StyleSheet.create({
   iconoClose: {
     height: 20,
     width: 20,
+  },
+
+  imageDestacados: {
+    width: 20,
+    height: 20,
   },
   textDescripcionTienda: {
     fontFamily: 'Roboto-Light',

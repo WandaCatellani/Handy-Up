@@ -10,7 +10,7 @@ export default function LocationNavigator() {
       <Stack.Screen
         name='location'
         component={Location}
-        options={{ title: 'LOCATION' }}
+        screenOptions={{ headerShow: false }}
       />
     </Stack.Navigator>
   );

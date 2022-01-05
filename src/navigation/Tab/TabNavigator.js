@@ -5,7 +5,6 @@ import CategoriesNavigator from '../Categories/CategoriesNavigator';
 import LocationNavigator from '../LocationNavigator/LocationNavigator';
 import ProfileNavigator from '../ProfileNavigator/ProfileNavigator';
 import React from 'react';
-import SearchNavigator from '../Search/SearchNavigator';
 import { StyleSheet } from 'react-native';
 import colors from '../../constants/colors';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
@@ -31,16 +30,6 @@ const TabNavigator = () => {
         options={{
           tabBarIcon: ({ color }) => (
             <FontAwesome name='map-marker' color={color} size={24} />
-          ),
-        }}
-      />
-
-      <Tab.Screen
-        name='Search'
-        component={SearchNavigator}
-        options={{
-          tabBarIcon: ({ color }) => (
-            <FontAwesome name='search' color={color} size={24} />
           ),
         }}
       />

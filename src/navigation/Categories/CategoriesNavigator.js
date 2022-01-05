@@ -9,7 +9,11 @@ const Stack = createNativeStackNavigator();
 export default function CategoriesNavigator() {
   return (
     <Stack.Navigator initialRouteName='Home'>
-      <Stack.Screen name='home' component={Home} options={{ title: 'HOME' }} />
+      <Stack.Screen
+        name='home'
+        component={Home}
+        screenOptions={{ headerShow: false }}
+      />
 
       <Stack.Screen
         name='services'

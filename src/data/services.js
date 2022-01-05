@@ -7,6 +7,7 @@ export const SERVICES = [
       '¿Problemas con tu aire acondicionado? En x tenés cientos de profesionales especializados en reparación de aire acondicionado (A/A) en Córdoba que te ayudarán a solucionar los problemas que tu aparato de aire o split pueden generar (compresor que no calienta, el equipo no enfría, la unidad no enciende, demasiado ruido...). También encontrarás un servicio de instalación de aire acondicionado económico y de calidad. Seleccioná el profesional con mejores valoraciones y pedí una cotización a través del chat. ¡Tendrás tu equipo listo en poco tiempo!',
     image: 'https://i.postimg.cc/8k3S3dMp/icono-aire-acondicionado.png',
     destacado: true,
+    price: 1600,
   },
   {
     id: '2',
@@ -16,6 +17,7 @@ export const SERVICES = [
       '¿Problemas con tu aire acondicionado? En x tenés cientos de profesionales especializados en reparación de aire acondicionado (A/A) en Córdoba que te ayudarán a solucionar los problemas que tu aparato de aire o split pueden generar (compresor que no calienta, el equipo no enfría, la unidad no enciende, demasiado ruido...). También encontrarás un servicio de instalación de aire acondicionado económico y de calidad. Seleccioná el profesional con mejores valoraciones y pedí una cotización a través del chat. ¡Tendrás tu equipo listo en poco tiempo!',
     image: 'https://i.postimg.cc/8k3S3dMp/icono-aire-acondicionado.png',
     destacado: true,
+    price: 2500,
   },
   {
     id: '3',
@@ -25,6 +27,7 @@ export const SERVICES = [
       '¿Cuánto tiempo lleva eso roto? Todos tenemos una lista interminable de tareas o problemas a resolver en nuestro hogar, no te preocupes. Gracias a timbrit podés contactar con cientos de albañiles para reformas, construcciones o tareas de bricolage en casa. Con la app de timbrit es fácil encontrar en Córdoba un albañil o una empresa de reformas u obras que se adapte a tus necesidades y presupuesto. Desde la app podés realizar solicitudes de trabajo y chatear con los profesionales. ¿A qué esperas? Es totalmente gratuito.',
     image: 'https://i.postimg.cc/bJJ7VdvS/icono-albanil.png',
     destacado: false,
+    price: 12400,
   },
   {
     id: '4',
@@ -34,6 +37,7 @@ export const SERVICES = [
       '¿Cuánto tiempo lleva eso roto? Todos tenemos una lista interminable de tareas o problemas a resolver en nuestro hogar, no te preocupes. Gracias a timbrit podés contactar con cientos de albañiles para reformas, construcciones o tareas de bricolage en casa. Con la app de timbrit es fácil encontrar en Córdoba un albañil o una empresa de reformas u obras que se adapte a tus necesidades y presupuesto. Desde la app podés realizar solicitudes de trabajo y chatear con los profesionales. ¿A qué esperas? Es totalmente gratuito.',
     image: 'https://i.postimg.cc/bJJ7VdvS/icono-albanil.png',
     destacado: false,
+    price: 3600,
   },
   {
     id: '5',

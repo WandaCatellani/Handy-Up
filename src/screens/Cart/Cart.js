@@ -6,56 +6,75 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
+import { confirmCart, removeItem } from '../../../store/actions/cart.actions';
 import { useDispatch, useSelector } from 'react-redux';
 
+import CartEmpty from '../../components/CartEmpty/CartEmpty';
+import CartItem from '../../components/CartItem/CartItem';
 import React from 'react';
-import { confirmCart } from '../../../store/actions/cart.actions';
+import colors from '../../constants/colors';
 
-export default function Cart() {
+const Cart = () => {
   const dispatch = useDispatch();
   const items = useSelector((state) => state.cart.items);
+  const total = useSelector((state) => state.cart.total);
   const status = useSelector((state) => state.cart.status);
-  const orderID = useSelector((state) => state.cart.orderID);
+  const userId = useSelector((state) => state.auth.userId);
 
+  const handleDeleteItem = (id) => dispatch(removeItem(id));
   const handleConfirmCart = () => {
-    dispatch(confirmCart(items));
+    dispatch(confirmCart(items, userId));
   };
 
-  const renderItem = ({ item }) => (
-    <View>
-      <Text>{item.name}</Text>
-    </View>
-  );
+  const renderItem = (data) => {
+    return <CartItem item={data.item} onDelete={handleDeleteItem} />;
+  };
 
   return (
-    <View style={styles.screen}>
-      <View style={styles.list}>
-        <FlatList
-          data={items}
-          keyExtractor={(item) => item.id}
-          renderItem={renderItem}
-        />
-      </View>
+    <>
+      <View style={styles.screen}>
+        {items.length ? (
+          <>
+            <View style={styles.list}>
+              <FlatList
+                data={items}
+                keyExtractor={(item) => item.id}
+                renderItem={renderItem}
+              />
+            </View>
 
-      <View style={styles.footer}>
-        {orderID && <Text>Orden Confirmada: {orderID}</Text>}
-        {status === 'loading' ? (
-          <ActivityIndicator color='black' size='large' />
+            <View style={styles.footer}>
+              {status === 'loading' ? (
+                <ActivityIndicator color={colors.primary} size='large' />
+              ) : (
+                <TouchableOpacity
+                  style={styles.confirm}
+                  onPress={handleConfirmCart}
+                >
+                  <Text style={styles.text}>Confirmar</Text>
+
+                  <View style={styles.total}>
+                    <Text style={styles.text}>Total</Text>
+
+                    <Text style={styles.text}>$ {total}</Text>
+                  </View>
+                </TouchableOpacity>
+              )}
+            </View>
+          </>
         ) : (
-          <TouchableOpacity style={styles.confirm} onPress={handleConfirmCart}>
-            <Text>Confirm</Text>
-          </TouchableOpacity>
+          <CartEmpty />
         )}
       </View>
-    </View>
+    </>
   );
-}
+};
 
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
     padding: 12,
-    backgroundColor: '#fff',
+    backgroundColor: colors.white,
     paddingBottom: 120,
   },
   list: {
@@ -63,11 +82,11 @@ const styles = StyleSheet.create({
   },
   footer: {
     padding: 12,
-    borderTopColor: '#ccc',
+    borderTopColor: colors.primary,
     borderTopWidth: 1,
   },
   confirm: {
-    backgroundColor: '#ccc',
+    backgroundColor: colors.primary,
     borderRadius: 10,
     padding: 10,
     flexDirection: 'row',
@@ -79,7 +98,10 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 18,
-    // fontFamily: Roboto,
+    fontFamily: 'Roboto',
     padding: 8,
+    color: colors.white,
   },
 });
+
+export default Cart;

@@ -7,7 +7,11 @@ const Stack = createNativeStackNavigator();
 export default function CartNavigator() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name='cart' component={Cart} options={{ title: 'CART' }} />
+      <Stack.Screen
+        name='cart'
+        component={Cart}
+        screenOptions={{ headerShow: false }}
+      />
     </Stack.Navigator>
   );
 }

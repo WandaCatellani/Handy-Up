@@ -11,10 +11,8 @@ const CardService = ({ item, onSelected }) => {
           <Image source={{ uri: item.image }} style={styles.image} />
         </View>
 
-        <View>
-          <View style={styles.textContainer}>
-            <Text style={styles.textName}>{item.name}</Text>
-          </View>
+        <View style={styles.textContainer}>
+          <Text style={styles.textName}>{item.name}</Text>
         </View>
       </View>
     </TouchableOpacity>
